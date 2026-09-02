@@ -89,8 +89,8 @@ window.MK.push({
                         {
                             judul: 'Persiapan Lingkungan Kerja dan Praktikum', konsep: 'Persiapan Lingkungan Kerja dan Praktikum',
                             materi: [
-                                ['Slide: Kontrak perkuliahan, Persiapan Lingkungan Kerja ...','' ],
-                                ['Modul: Kontrak perkuliahan, Persiapan Lingkungan Kerja ...','' ]
+                                ['Slide: Kontrak perkuliahan, Persiapan Lingkungan Kerja ...',''],
+                                ['Modul: E-modul ...','https://trplpnm.notion.site/emodul-ppbw2' ]
                             ],
                         },
                         ]
