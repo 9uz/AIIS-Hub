@@ -1,0 +1,264 @@
+:root{
+  --tinta:#16202a; --redup:#5b6b78; --garis:#e2e7eb; --latar:#ffffff;
+  --sisi:#f6f8f9; --aksen:#1f6f80; --aksen-muda:#e8f2f4; --sorot:#fdf6e6; --sorot-garis:#ecd9a8;
+  --serif:Georgia,'Times New Roman',serif;
+  --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  --mono:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--latar);color:var(--tinta);font-family:var(--sans);font-size:16px;line-height:1.6}
+a{color:var(--aksen);text-decoration:none}
+a:hover{text-decoration:underline}
+.lewati{position:absolute;left:-9999px}
+.lewati:focus{left:8px;top:8px;background:#fff;padding:8px 12px;border:2px solid var(--aksen);z-index:99}
+.bungkus{display:flex;min-height:100vh}
+
+/* Sidebar */
+.samping{width:264px;flex:0 0 264px;background:var(--sisi);border-right:1px solid var(--garis);padding:28px 22px;position:sticky;top:0;height:100vh;overflow-y:auto}
+.merek{margin-bottom:26px}
+.kode{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--aksen);background:var(--aksen-muda);padding:3px 8px;border-radius:4px;margin-bottom:9px}
+.nama{display:block;font-family:var(--serif);font-size:25px;font-weight:700;color:var(--tinta);line-height:1.15}
+.nama:hover{text-decoration:none;color:var(--aksen)}
+.sub{display:block;margin-top:7px;font-size:12.5px;color:var(--redup);line-height:1.45}
+.samping nav ul{list-style:none;margin:0;padding:0}
+.samping nav li{margin-bottom:2px}
+.samping nav a{display:block;padding:8px 11px;border-radius:6px;color:var(--tinta);font-size:14.5px}
+.samping nav a:hover{background:#eceff1;text-decoration:none}
+.samping nav a.aktif{background:var(--aksen);color:#fff;font-weight:600}
+.pintasan{margin-top:28px;padding-top:20px;border-top:1px solid var(--garis)}
+.pintasan .label{margin:0 0 9px;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--redup);font-weight:700}
+.pintasan a{display:block;font-size:13.5px;padding:4px 0;color:var(--redup)}
+.pintasan a:hover{color:var(--aksen)}
+
+/* Konten */
+.isi{flex:1;min-width:0;padding:44px 56px 0;max-width:1000px}
+.kepala{border-bottom:1px solid var(--garis);padding-bottom:20px;margin-bottom:30px}
+.kepala h1{font-family:var(--serif);font-size:38px;margin:0;line-height:1.15;letter-spacing:-.01em}
+.ringkas{margin:10px 0 0;color:var(--redup);font-size:15.5px}
+h2{font-family:var(--serif);font-size:25px;margin:42px 0 16px;padding-bottom:8px;border-bottom:1px solid var(--garis)}
+h3{font-family:var(--serif);font-size:19px;margin:26px 0 10px}
+h3.blok{margin:34px 0 16px;font-size:15px;font-family:var(--sans);text-transform:uppercase;letter-spacing:.09em;color:var(--redup);font-weight:700;border-bottom:none}
+p{margin:0 0 14px}
+.tanpa-bawah{margin-bottom:0}
+.kecil{font-size:13px;color:var(--redup)}
+.catatan{font-size:14px;color:var(--redup);margin-top:-6px}
+
+/* Ringkasan angka */
+.ringkas-angka{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:26px 0 8px}
+.ringkas-angka div{background:var(--sisi);border:1px solid var(--garis);border-radius:8px;padding:16px 14px;text-align:center}
+.ringkas-angka .angka{display:block;font-family:var(--serif);font-size:28px;font-weight:700;color:var(--aksen);line-height:1.1}
+.ringkas-angka .ket{display:block;margin-top:4px;font-size:12px;color:var(--redup)}
+
+/* Daftar pertemuan */
+.daftar-pertemuan{list-style:none;margin:0 0 8px;padding:0}
+.pertemuan{position:relative;display:flex;align-items:flex-start;gap:16px;background:#fff;border:1px solid var(--garis);border-radius:9px;padding:16px 18px 16px 24px;margin-bottom:9px;overflow:hidden}
+.pertemuan .pita{position:absolute;left:0;top:0;bottom:0;width:6px}
+.pertemuan .no{flex:0 0 34px;font-family:var(--serif);font-size:22px;font-weight:700;color:var(--redup);text-align:center;padding-top:1px}
+.pertemuan .detail{flex:1;min-width:0}
+.pertemuan h4{font-family:var(--serif);font-size:17.5px;margin:0 0 5px;line-height:1.3}
+.pertemuan .meta{margin:0 0 5px;font-size:12.5px;color:var(--redup)}
+.pertemuan .tag{font-family:var(--mono);font-size:11.5px;background:var(--aksen-muda);color:var(--aksen);padding:2px 7px;border-radius:4px}
+.pertemuan .pisah{margin:0 3px}
+.pertemuan .ket{margin:0;font-size:13.5px;color:var(--redup);line-height:1.5}
+.pertemuan .aksi{flex:0 0 auto;padding-top:3px}
+.pertemuan.ujian{background:#fbfbfc;border-style:dashed}
+.pertemuan.proyek{background:#faf8fd}
+.unduh{display:inline-block;font-size:13px;font-weight:600;padding:7px 13px;border:1px solid var(--aksen);border-radius:6px;white-space:nowrap}
+.unduh:hover{background:var(--aksen);color:#fff;text-decoration:none}
+.unduh.besar{padding:9px 16px;font-size:14px}
+.belum{font-size:12.5px;color:#93a1ac;font-style:italic;white-space:nowrap}
+
+/* Kartu */
+.kartu-info{background:var(--aksen-muda);border:1px solid #cfe3e7;border-radius:9px;padding:18px 22px;margin:22px 0}
+.kartu-info h3{margin-top:0}
+.kartu-peringatan{background:var(--sorot);border:1px solid var(--sorot-garis);border-radius:9px;padding:18px 22px;margin:26px 0}
+.kartu-peringatan h3{margin-top:0}
+.kartu-sorot{background:var(--sorot);border:1px solid var(--sorot-garis);border-radius:9px;padding:20px 22px;margin:18px 0 26px}
+
+/* Kolom */
+.dua-kolom{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:18px 0}
+.tiga-kolom{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:18px 0}
+.kotak{background:#fff;border:1px solid var(--garis);border-radius:9px;padding:18px 20px}
+.kotak h3{margin-top:0;margin-bottom:9px}
+.cap{display:block;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--aksen);font-weight:700;margin-bottom:6px}
+
+/* Tabel */
+.tabel{width:100%;border-collapse:collapse;margin:16px 0 22px;font-size:14.5px}
+.tabel th,.tabel td{border:1px solid var(--garis);padding:10px 13px;text-align:left;vertical-align:top}
+.tabel thead th{background:var(--sisi);font-weight:700;font-size:13px;letter-spacing:.02em}
+.tabel tbody th{background:var(--sisi);font-weight:600;width:210px}
+.tabel .tengah{text-align:center}
+.tabel .bobot{font-family:var(--mono);font-weight:700;color:var(--aksen)}
+.tabel .kode-sel{font-family:var(--mono);font-size:13px;white-space:nowrap;font-weight:700}
+.tabel .jumlah td{background:var(--sisi);font-weight:700}
+.tabel-nilai td{text-align:center}
+.tabel-nilai td:first-child{font-weight:700}
+
+/* Daftar */
+.daftar{margin:12px 0 18px;padding-left:20px}
+.daftar li{margin-bottom:7px}
+.daftar.rapat li{margin-bottom:4px;font-size:13.5px}
+.daftar-berkas{list-style:none;margin:14px 0;padding:0}
+.daftar-berkas li{border:1px solid var(--garis);border-radius:8px;padding:13px 17px;margin-bottom:9px}
+.daftar-berkas a{font-weight:600}
+.daftar-berkas span{display:block;font-size:12.5px;color:var(--redup);margin-top:3px}
+
+/* Kaki */
+.kaki{margin-top:56px;padding:22px 0 40px;border-top:1px solid var(--garis);font-size:13px;color:var(--redup)}
+.kaki p{margin:0 0 6px}
+
+/* Menu seluler */
+.tombol-menu{display:none;position:fixed;top:12px;right:12px;z-index:50;background:var(--aksen);color:#fff;border:0;border-radius:6px;padding:9px 15px;font-size:14px;font-weight:600;cursor:pointer}
+
+@media (max-width:980px){
+  .ringkas-angka{grid-template-columns:repeat(2,1fr)}
+  .tiga-kolom{grid-template-columns:1fr}
+  .isi{padding:38px 30px 0}
+}
+@media (max-width:760px){
+  .tombol-menu{display:block}
+  .bungkus{flex-direction:column}
+  .samping{position:static;width:100%;flex:none;height:auto;display:none;border-right:0;border-bottom:1px solid var(--garis)}
+  body.buka .samping{display:block}
+  .isi{padding:26px 20px 0;max-width:100%}
+  .kepala h1{font-size:30px}
+  .dua-kolom{grid-template-columns:1fr}
+  .pertemuan{flex-wrap:wrap}
+  .pertemuan .aksi{flex-basis:100%;padding-top:10px}
+  .tabel{font-size:13.5px}
+  .tabel tbody th{width:auto}
+}
+@media print{
+  .samping,.tombol-menu{display:none}
+  .isi{max-width:100%;padding:0}
+  .pertemuan{break-inside:avoid}
+}
+/* ===== Tambahan untuk situs dinamis ===== */
+.memuat{color:var(--redup);padding:40px 0}
+.pengantar{font-size:16.5px;color:var(--redup);max-width:70ch;margin-bottom:8px}
+
+/* Kembali ke daftar */
+.kembali{display:inline-block;font-size:12.5px;color:var(--redup);margin-bottom:12px}
+.kembali:hover{color:var(--aksen)}
+
+/* Grid kartu mata kuliah */
+.grid-mk{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin:18px 0 8px}
+.kartu-mk{display:block;position:relative;background:#fff;border:1px solid var(--garis);border-left:5px solid var(--aksen-mk,var(--aksen));border-radius:9px;padding:20px 22px;color:var(--tinta)}
+.kartu-mk:hover{text-decoration:none;box-shadow:0 3px 14px rgba(22,32,42,.09);transform:translateY(-1px)}
+.kartu-mk .kode{background:transparent;color:var(--aksen-mk,var(--aksen));padding:0;margin-bottom:6px;font-size:11.5px;font-weight:700}
+.kartu-mk h3{font-size:20px;margin:0 0 8px}
+.kartu-mk p{font-size:13.5px;color:var(--redup);margin-bottom:12px;line-height:1.5}
+.kaki-mk{display:block;font-size:12px;color:var(--redup)}
+.kaki-mk.angka-mk{margin-top:3px;font-family:var(--mono);font-size:11px;color:#94a2ac}
+
+/* Baris judul dengan pencarian */
+.baris-judul{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:42px 0 16px;padding-bottom:8px;border-bottom:1px solid var(--garis);flex-wrap:wrap}
+.baris-judul h2{margin:0;padding:0;border:0}
+.cari{flex:0 1 260px;font:inherit;font-size:14px;padding:7px 12px;border:1px solid var(--garis);border-radius:6px;background:#fff;color:var(--tinta)}
+.cari:focus{outline:2px solid var(--aksen);outline-offset:1px;border-color:var(--aksen)}
+.hasil-kosong{color:var(--redup);font-style:italic;padding:18px 0}
+
+/* Peringatan bobot */
+.tabel .jumlah.salah td{background:#fdf0f0}
+.galat{color:#a33;font-size:12.5px;font-weight:600}
+
+code{font-family:var(--mono);font-size:.9em;background:var(--sisi);padding:2px 5px;border-radius:4px}
+
+@media (max-width:760px){
+  .baris-judul{margin-top:30px}
+  .cari{flex:1 1 100%}
+  .grid-mk{grid-template-columns:1fr}
+}
+
+[hidden]{display:none !important}
+
+/* =====================================================================
+   TEMA KLASIK — bilah atas, sampul berwarna, satu halaman bersambung
+   ===================================================================== */
+body.tema-klasik{background:#fff}
+.tema-klasik .wadah{max-width:1120px;margin:0 auto;padding:0 24px}
+
+/* Bilah navigasi atas */
+.bilah-atas{position:sticky;top:0;z-index:40;background:#22262b}
+.bilah-atas .wadah{display:flex;align-items:center;gap:18px;min-height:56px}
+.merek-atas{font-family:var(--serif);font-size:20px;font-weight:700;color:#fff;white-space:nowrap}
+.merek-atas:hover{color:#fff;text-decoration:none;opacity:.85}
+.menu-atas{list-style:none;display:flex;gap:2px;margin:0 0 0 auto;padding:0;flex-wrap:wrap}
+.menu-atas a{display:block;padding:8px 13px;color:rgba(255,255,255,.72);font-size:14px;border-radius:5px}
+.menu-atas a:hover{color:#fff;background:rgba(255,255,255,.09);text-decoration:none}
+.menu-atas a.aktif{color:#fff;background:rgba(255,255,255,.16);font-weight:600}
+.pisah-menu{margin-left:8px;padding-left:10px;border-left:1px solid rgba(255,255,255,.2)}
+.pisah-menu a{font-size:13px;color:rgba(255,255,255,.55)}
+.tombol-bilah{display:none;margin-left:auto;background:transparent;border:1px solid rgba(255,255,255,.35);color:#fff;border-radius:5px;padding:5px 12px;font-size:17px;cursor:pointer;line-height:1.2}
+
+/* Sampul */
+.sampul{padding:38px 0 34px;color:#fff}
+.sampul .kode-sampul{display:inline-block;font-family:var(--mono);font-size:12px;letter-spacing:.08em;background:rgba(255,255,255,.18);padding:3px 9px;border-radius:4px;margin-bottom:12px}
+.sampul h1{font-family:var(--serif);font-size:40px;margin:0;letter-spacing:.01em;line-height:1.1}
+.sampul p{margin:10px 0 0;font-size:15px;color:rgba(255,255,255,.78)}
+
+/* Bagian */
+.tema-klasik .bagian{padding:38px 0;border-bottom:1px solid var(--garis)}
+.tema-klasik .bagian:last-child{border-bottom:0}
+.tema-klasik .bagian h2{font-size:26px;margin:0 0 4px;border:0;padding:0}
+.tema-klasik .bagian hr{border:0;border-top:1px solid var(--garis);margin:0 0 18px}
+.tema-klasik h2.rapat{margin-top:26px}
+.tema-klasik .kepala{display:none}
+
+/* Baris dua kolom */
+.baris{display:grid;grid-template-columns:2fr 1fr;gap:38px}
+.kol-8,.kol-4{min-width:0}
+.kol-4 address{font-style:normal;font-size:14px;line-height:1.6;margin-bottom:14px;color:var(--tinta)}
+.kol-4 address strong{display:block;color:var(--redup);font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px}
+.tautan-berkas{margin:0 0 7px;font-size:14px}
+.angka-klasik{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0 20px}
+.angka-klasik div{background:var(--sisi);border:1px solid var(--garis);border-radius:7px;padding:12px 10px;text-align:center}
+.angka-klasik .angka{display:block;font-family:var(--serif);font-size:22px;font-weight:700;color:var(--aksen);line-height:1.1}
+.angka-klasik .ket{display:block;font-size:11.5px;color:var(--redup);margin-top:2px}
+
+/* Tabel jadwal klasik */
+.gulir-tabel{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tabel-jadwal{width:100%;border-collapse:collapse;font-size:14px;min-width:800px}
+.tabel-jadwal th{background:var(--sisi);border:1px solid var(--garis);padding:10px 12px;text-align:left;font-size:12.5px;letter-spacing:.03em;text-transform:uppercase;color:var(--redup)}
+.tabel-jadwal td{border:1px solid var(--garis);padding:11px 12px;vertical-align:top;line-height:1.55}
+.tabel-jadwal .k-minggu{width:112px}
+.tabel-jadwal .k-tanggal{width:100px;color:var(--redup);font-size:13px}
+.tabel-jadwal .k-bahan{width:290px;font-size:13px}
+.tabel-jadwal .baris-agenda.awal td{border-top:2px solid #cfd7dc}
+.tabel-jadwal .baris-blok td{background:#eef2f4;font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--redup);padding:8px 12px}
+.tabel-jadwal .baris-ujian td{background:#fbfbfc}
+.tabel-jadwal .baris-proyek td{background:#faf8fd}
+.tabel-jadwal b{font-size:14.5px}
+.tabel-jadwal i{color:var(--redup);font-size:13px}
+.lencana{display:inline-block;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;white-space:nowrap}
+.belum-tautan{color:#93a1ac;font-style:italic}
+
+/* Kartu orang */
+.grid-orang{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.orang{display:flex;gap:14px;align-items:center;border:1px solid var(--garis);border-radius:9px;padding:15px 17px}
+.orang img,.orang .inisial{width:52px;height:52px;border-radius:50%;flex:0 0 52px;object-fit:cover}
+.orang .inisial{display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--serif);font-size:18px;font-weight:700}
+.orang strong{display:block;font-size:15px;line-height:1.3}
+.orang .peran{display:block;font-size:12.5px;color:var(--redup);margin-top:2px}
+.orang a{display:block;font-size:12.5px;margin-top:3px}
+
+/* Kaki klasik */
+.kaki-klasik{background:#22262b;color:rgba(255,255,255,.7);padding:26px 0;margin-top:10px;text-align:center}
+.kaki-klasik p{margin:0 0 5px;font-size:13.5px}
+.kaki-klasik .kecil{color:rgba(255,255,255,.45);font-size:12px}
+
+@media (max-width:860px){
+  .baris{grid-template-columns:1fr;gap:26px}
+  .tombol-bilah{display:block}
+  .menu-atas{display:none;flex-basis:100%;flex-direction:column;margin:0;padding-bottom:10px}
+  body.buka .menu-atas{display:flex}
+  .bilah-atas .wadah{flex-wrap:wrap;padding-top:8px;padding-bottom:4px}
+  .sampul h1{font-size:30px}
+  .angka-klasik{grid-template-columns:repeat(4,1fr)}
+}
+
+/* Perbaikan tema klasik */
+.tema-klasik .bagian{scroll-margin-top:72px}
+.tema-klasik .tag,.tabel-jadwal .tag{display:inline-block;font-family:var(--mono);font-size:11px;background:var(--aksen-muda);color:var(--aksen);padding:2px 7px;border-radius:4px;margin-top:4px}
+.tabel-jadwal .kecil{color:var(--redup);font-size:12px}
