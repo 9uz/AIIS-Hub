@@ -27,6 +27,5 @@ window.SITUS = {
     'mk-ti24425.js',      // Data Science  (Tema Klasik)
 	'mk-rpl24323.js', // Pemrograman web II
 	'mk-rpl24545.js', // data science TRPL
-    //'mk-basisdata.js',    // tema klasik
   ],
 };

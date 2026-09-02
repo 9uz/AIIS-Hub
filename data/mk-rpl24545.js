@@ -80,7 +80,7 @@ jadwal: [
     blok: 'Sebelum Ujian Tengah Semester',
     pertemuan: [
       {
-        n: '1',
+        n: '1', minggu: 'Minggu 1', tanggal: '31 Agu \u2013 6 Sep',
         topik: 'Pendahuluan dan Gambaran Umum Data Science',
         label: 'Sub-CPMK 1',
         bobot: '5%',
@@ -94,8 +94,9 @@ jadwal: [
 			{
               judul: 'Pengenalan tools yang dibutuhkan', konsep: 'Pengenalan tools yang dibutuhkan dalam machine learning (ML): pandas dan visualisasi data',
               materi: [
-			  ['Pengenalan tools..', 'slides/p1_1.pptx'],
-			  ['Dataset', 'slides/data1']],
+			  ['Slide: Pengenalan tools..', 'slides/p1_1.pptx'],
+			  ['Dataset : Augmented_Landmarks_DataFrame', 'slides/data/Augmented_Landmarks_DataFrame.csv'],
+                  ['Dataset : uc_berkeley_events', 'slides/data/uc_berkeley_events.csv']],
             },
             {
               judul: 'Tugas Praktikum 1', konsep: 'Membuat DataFrame sederhana menggunakan Pandas dan menghasilkan visualisasi data menggunakan Matplotlib.',
@@ -104,7 +105,7 @@ jadwal: [
           ],
 	  },
       {
-        n: '2',
+        n: '2', minggu: 'Minggu 2', tanggal: '7 – 13 Sep',
         topik: 'Dasar-dasar Machine Learning',
         label: 'Sub-CPMK 2',
         bobot: '5%',
@@ -122,7 +123,7 @@ jadwal: [
           ],
 	  },
       {
-        n: '3',
+        n: '3', minggu: 'Minggu 3', tanggal: '14 – 20 Sep',
         topik: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
         label: 'Sub-CPMK 3',
         bobot: '5%',
@@ -130,7 +131,7 @@ jadwal: [
         catatan: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall'
       },
       {
-        n: '4',
+        n: '4', minggu: 'Minggu 4', tanggal: '21 – 27 Sep',
         topik: 'Unsupervised Learning dan Probabilitas',
         label: 'Sub-CPMK 4',
         bobot: '5%',
@@ -138,7 +139,7 @@ jadwal: [
         catatan: 'Unsupervised Learning · Probabilitas · K-Means · Gaussian Mixture Model (GMM)'
       },
       {
-        n: '5',
+        n: '5',minggu: 'Minggu 5', tanggal: '28 Sep – 4 Okt',
         topik: 'Regresi Linier',
         label: 'Sub-CPMK 5',
         bobot: '5%',
@@ -146,7 +147,7 @@ jadwal: [
         catatan: 'Linear Regression · Fungsi basis · Vektorisasi · Error Function · Minimasi Error · Evaluasi Model'
       },
       {
-        n: '6',
+        n: '6', minggu: 'Minggu 6', tanggal: '5 – 11 Okt',
         topik: 'Regularisasi pada Regresi Linier',
         label: 'Sub-CPMK 6',
         bobot: '5%',
@@ -154,7 +155,7 @@ jadwal: [
         catatan: 'Regularized Least Squares · Ridge · Lasso · Normal Equation · Perbandingan OLS dan Regularisasi'
       },
       {
-        n: '7',
+        n: '7',  minggu: 'Minggu 7',
         topik: 'MLE dan Bias-Variance Trade-off',
         label: 'Sub-CPMK 6',
         bobot: '5%',
@@ -162,7 +163,7 @@ jadwal: [
         catatan: 'Maximum Likelihood Estimation · Prior Beliefs · Distribusi Noise · Bias-Variance Trade-off'
       },
       {
-        n: '8',
+        n: '8',  minggu: 'Minggu 8',
         topik: 'Ujian Tengah Semester',
         label: 'Sub-CPMK 1–6',
         bobot: '15%',
@@ -176,7 +177,7 @@ jadwal: [
     blok: 'Setelah Ujian Tengah Semester',
     pertemuan: [
       {
-        n: '9',
+        n: '9',  minggu: 'Minggu 9',
         topik: 'Regresi Logistik',
         label: 'Sub-CPMK 7',
         bobot: '5%',
@@ -184,7 +185,7 @@ jadwal: [
         catatan: 'Klasifikasi linier · Fungsi sigmoid · Model probabilistik · Regularisasi · Optimisasi'
       },
       {
-        n: '10',
+        n: '10',  minggu: 'Minggu 10',
         topik: 'Klasifikasi Multi-Kelas dan Evaluasi Model',
         label: 'Sub-CPMK 8',
         bobot: '5%',
@@ -192,7 +193,7 @@ jadwal: [
         catatan: 'Multi-Class Classification · Confusion Matrix · ROC · F1-Score · Evaluasi performa'
       },
       {
-        n: '11',
+        n: '11', minggu: 'Minggu 11',
         topik: 'Optimisasi dan Gradient Descent',
         label: 'Sub-CPMK 9',
         bobot: '5%',
@@ -200,7 +201,7 @@ jadwal: [
         catatan: 'Gradient Descent · Stochastic Gradient Descent · Konvergensi · Perbandingan GD dan SGD'
       },
       {
-        n: '12',
+        n: '12',minggu: 'Minggu 12',
         topik: 'Neural Networks',
         label: 'Sub-CPMK 10',
         bobot: '5%',
@@ -208,7 +209,7 @@ jadwal: [
         catatan: 'Model Non-linear · Arsitektur Neural Network · Fungsi Aktivasi · Implementasi PyTorch'
       },
       {
-        n: '13',
+        n: '13', minggu: 'Minggu 13',
         topik: 'Neural Networks dan Backpropagation',
         label: 'Sub-CPMK 10',
         bobot: '5%',
@@ -216,7 +217,7 @@ jadwal: [
         catatan: 'Implementasi Neural Network dengan PyTorch · Backpropagation · Tuning Model · Peer Review'
       },
       {
-        n: '14',
+        n: '14', minggu: 'Minggu 14',
         topik: 'Neural Networks: Normalisasi, Inisialisasi, dan Regularisasi',
         label: 'Sub-CPMK 10',
         bobot: '5%',
@@ -225,7 +226,7 @@ jadwal: [
         jenis: 'proyek'
       },
       {
-        n: '15',
+        n: '15', minggu: 'Minggu 15',
         topik: 'CNN, RNN, dan Large Language Models',
         label: 'Sub-CPMK 11',
         bobot: '5%',
@@ -234,7 +235,7 @@ jadwal: [
         jenis: 'proyek'
       },
       {
-        n: '16',
+        n: '16', minggu: 'Minggu 16',
         topik: 'Ujian Akhir Semester — Presentasi Proyek Akhir',
         label: 'Sub-CPMK 1–11',
         bobot: '15%',
