@@ -14,7 +14,7 @@ window.SITUS = {
   jurusan: 'Jurusan Teknik',
   prodi: 'Program Studi Teknologi Rekayasa Perangkat Lunak',
   tahunAjaran: '2026/2027',
-  judulBeranda: 'Situs Mata Kuliah',
+  judulBeranda: 'AIIS-Hub',
   keteranganBeranda: 'Kumpulan rencana pembelajaran, jadwal, dan bahan ajar mata kuliah Program Studi Teknologi Rekayasa Perangkat Lunak.',
 
   // Tautan yang muncul di bagian bawah sidebar pada semua halaman
