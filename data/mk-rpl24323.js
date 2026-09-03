@@ -97,7 +97,24 @@ window.MK.push({
                         ]
                 },
                 { n: '2', minggu: 'Minggu 2', topik: 'Version Control System & Inisiasi PjBL', label: 'Sub-CPMK 6', bobot: '4%', catatan: 'Konsep Repositori, Inisiasi Git, Percabangan, dan Sinkronisasi Remote[cite: 1]', media: 'VS Code, Git SCM, Akun Git, Modul 2[cite: 1]',
-                    agenda: [],
+                    agenda: [
+                        {
+                        judul: 'Konsep model pengembangan perangkat lunak..',
+                            konsep: '1. Konsep model pengembangan perangkat lunak: Waterfall dan Agile\n' +
+                                '2. Konsep aplikasi web modern \n' +
+                                '3. Arsitektur MVC\n' +
+                                '4. Komponen Model,View, Controller\n' +
+                                '5. Alur pengembangan aplikasi berbasis MVC',
+                        materi: [['Slide : 2. Arsitektur_Aplikasi_Revisi.pdf','slides/2.Arsitektur_Aplikasi_Revisi.pdf' ]]
+                        },
+                        {
+                            judul: 'Version Control System & Inisiasi PjBL', konsep: 'Version Control System & Inisiasi PjBL',
+                            materi: [
+                                ['Modul: E-modul 2 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Pengumpulan Lembar Kerja','#']
+                               ],
+                        },
+                    ],
                 },
                 { n: '3', minggu: 'Minggu 3', topik: 'Pemrograman Dasar MVC', label: 'Sub-CPMK 1', bobot: '5%', catatan: 'Konsep Arsitektur MVC, Pembuatan Routes, Penulisan Controller Dasar, dan Perenderan View Sederhana[cite: 1]', media: 'Framework Backend, Modul 3[cite: 1]' },
                 { n: '4', minggu: 'Minggu 4', topik: 'Struktur Kontrol & Antarmuka', label: 'Sub-CPMK 2', bobot: '5%', catatan: 'Passing Controller ke View, Direktif Percabangan, Direktif Perulangan, dan Pencetakan Nilai Aman[cite: 1]', media: 'Framework Backend, Modul 4[cite: 1]' },
