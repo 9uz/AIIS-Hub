@@ -95,12 +95,22 @@ jadwal: [
               judul: 'Pengenalan tools yang dibutuhkan', konsep: 'Pengenalan tools yang dibutuhkan dalam machine learning (ML): pandas dan visualisasi data',
               materi: [
 			  ['Slide: Pengenalan tools..', 'slides/p1_1.pptx'],
-			  ['Dataset : Augmented_Landmarks_DataFrame', 'slides/data/Augmented_Landmarks_DataFrame.csv'],
-                  ['Dataset : uc_berkeley_events', 'slides/data/uc_berkeley_events.csv']],
+			  ],
             },
             {
-              judul: 'Tugas Praktikum 1', konsep: 'Membuat DataFrame sederhana menggunakan Pandas dan menghasilkan visualisasi data menggunakan Matplotlib.',
-              materi: [['Tugas Praktikum 1', '']],
+              judul: 'Modul Belajar 1', konsep: 'Membuat DataFrame sederhana menggunakan Pandas dan menghasilkan visualisasi data menggunakan Matplotlib.',
+              materi: [
+                  ['Modul Notebook', 'dokumen/lec2.ipynb' ],
+                  ['Dataset : Augmented_Landmarks_DataFrame', 'slides/data/Augmented_Landmarks_DataFrame.csv'],
+                  ['Dataset : uc_berkeley_events', 'slides/data/uc_berkeley_events.csv']
+              ],
+            },
+            {
+                judul: 'Tugas Mandiri', konsep: 'Cari dataset secara mandiri di [UCI Machine Learning Repository](https://archive.ics.uci.edu/datasets) yang memenuhi kriteria wajib.',
+                materi: [
+                    ['Tugas Praktikum 1', 'dokumen/tugas1.ipynb' ],
+                    ['Form Pengumpulan :', ]
+                ],
             },
           ],
 	  },
