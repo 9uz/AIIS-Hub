@@ -109,7 +109,7 @@ jadwal: [
                 judul: 'Tugas Mandiri', konsep: 'Cari dataset secara mandiri di [UCI Machine Learning Repository](https://archive.ics.uci.edu/datasets) yang memenuhi kriteria wajib.',
                 materi: [
                     ['Tugas Praktikum 1', 'dokumen/tugas1.ipynb' ],
-                    ['Form Pengumpulan :', ]
+                    ['Form Pengumpulan :', 'https://forms.gle/z4auaYV3YQCyQ7QW8']
                 ],
             },
           ],
