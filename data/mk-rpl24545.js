@@ -94,7 +94,7 @@ jadwal: [
 			{
               judul: 'Pengenalan tools yang dibutuhkan', konsep: 'Pengenalan tools yang dibutuhkan dalam machine learning (ML): pandas dan visualisasi data',
               materi: [
-			  ['Slide: Pengenalan tools..', 'slides/p1_1.pptx'],
+			  ['Slide: Pengenalan tools..', 'slides/Perkakas_Data_pandas_Visualisasi.pdf'],
 			  ],
             },
             {
@@ -123,7 +123,8 @@ jadwal: [
         catatan: 'Learning Problem · Target · Objective · Data · Model Design · Hypothesis Space · Bias Induktif',
 		agenda: [
             {
-              judul: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi', konsep: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi',
+              judul: 'Dasar-dasar Machine Learning Terminologi dan Teknik Dasar',
+                konsep: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi',
               materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P05_Regularisasi_MLE_Bias_Variance.pptx' ]],
             },
             {
