@@ -101,7 +101,7 @@ window.MK.push({
             agenda: [
                 {
                     judul: 'Anatomi Pipeline dan Kualitas Data', konsep: 'Missing value, outlier, encoding, scaling, EDA',
-                    materi: [['Slide: Kualitas Data ....', 'slide/P02_Anatomi_Pipeline_dan_Kualitas_Data.pptx']],
+                    materi: [['Slide: Kualitas Data ....', 'slide/P02_Anatomi_Pipeline_dan_Kualitas_Data.pdf']],
                 },
             ],
         },
