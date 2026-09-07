@@ -89,7 +89,7 @@ window.MK.push({
 			agenda: [
             {
               judul: 'Pengantar Data Science dan Etika Data', konsep: 'Pengantar Data Science dan Etika Data',
-              materi: [['Slide: Pengantar Data Science', 'slide/P1_Pengantar.pdf']],
+              materi: [['Slide: Pengantar Data Science', 'slides/P1_Pengantar.pdf']],
             },
             {
               judul: 'Proyek Kelompok', konsep: 'Pembentukan kelompok dan dokumentasi awal proyek',
@@ -101,7 +101,7 @@ window.MK.push({
             agenda: [
                 {
                     judul: 'Anatomi Pipeline dan Kualitas Data', konsep: 'Missing value, outlier, encoding, scaling, EDA',
-                    materi: [['Slide: Kualitas Data ....', 'slide/P02_Anatomi_Pipeline_dan_Kualitas_Data.pdf']],
+                    materi: [['Slide: Kualitas Data ....', 'slides/P02_Anatomi_Pipeline_dan_Kualitas_Data.pdf']],
                 },
             ],
         },
