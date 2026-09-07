@@ -93,7 +93,7 @@ window.MK.push({
             },
             {
               judul: 'Proyek Kelompok', konsep: 'Pembentukan kelompok dan dokumentasi awal proyek',
-              materi: [['Daftar Kelompok', '']],
+              materi: [['Daftar Kelompok', 'https://docs.google.com/spreadsheets/d/1D6w27TjMVmOGxNaDrOOUjehd3iY9brtD-OGuHrDGVRE/edit?usp=sharing']],
             },
           ],
 		},
