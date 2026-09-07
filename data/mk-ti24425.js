@@ -89,7 +89,7 @@ window.MK.push({
 			agenda: [
             {
               judul: 'Pengantar Data Science dan Etika Data', konsep: 'Pengantar Data Science dan Etika Data',
-              materi: [['Slide: Pengantar Data Science', 'slide/P1. Pengantar.pdf']],
+              materi: [['Slide: Pengantar Data Science', 'slide/P1_Pengantar.pdf']],
             },
             {
               judul: 'Proyek Kelompok', konsep: 'Pembentukan kelompok dan dokumentasi awal proyek',
