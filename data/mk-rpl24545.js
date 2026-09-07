@@ -120,16 +120,20 @@ jadwal: [
         label: 'Sub-CPMK 2',
         bobot: '5%',
         warna: '2F6B8A',
-        catatan: 'Learning Problem · Target · Objective · Data · Model Design · Hypothesis Space · Bias Induktif',
+        catatan: 'Dasar-dasar Machine Learning Terminologi dan Teknik Dasar',
 		agenda: [
             {
               judul: 'Dasar-dasar Machine Learning Terminologi dan Teknik Dasar',
-                konsep: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi',
-              materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P05_Regularisasi_MLE_Bias_Variance.pptx' ]],
+                konsep: 'Permasalahan Pembelajaran (Learning Problem), Perancangan Model (Model Design):',
+              materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+                  ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
             },
             {
-              judul: 'Tugas 2', konsep: 'Tugas 2',
-              materi: [['Tugas 2:', '']],
+                judul: 'Tugas Mandiri', konsep: 'Mengevaluasi stabilitas, performa, efisiensi, dan karakteristik kesalahan dari model machine learning',
+                materi: [
+                    ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+                    ['Form Pengumpulan :', '']
+                ],
             },
           ],
 	  },
@@ -139,7 +143,22 @@ jadwal: [
         label: 'Sub-CPMK 3',
         bobot: '5%',
         warna: '2F6B8A',
-        catatan: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall'
+        catatan: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+          // agenda: [
+          //     {
+          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/03_Terminologi_Optimisasi_Evaluasi.pdf' ],
+          //             ],
+          //     },
+          //     {
+          //         judul: 'Tugas Mandiri', konsep: 'Penerapan Siklus Machine Learning Dataset_UCI',
+          //         materi: [
+          //             ['Tugas Praktikum 3', 'dokumen/Tugas_3_Penerapan_Dataset_UCI.ipynb' ],
+          //             ['Form Pengumpulan :', '']
+          //         ],
+          //     },
+          //     ],
       },
       {
         n: '4', minggu: 'Minggu 4', tanggal: '21 – 27 Sep',
@@ -147,7 +166,22 @@ jadwal: [
         label: 'Sub-CPMK 4',
         bobot: '5%',
         warna: '2F6B8A',
-        catatan: 'Unsupervised Learning · Probabilitas · K-Means · Gaussian Mixture Model (GMM)'
+        catatan: 'Unsupervised Learning · Probabilitas · K-Means · Gaussian Mixture Model (GMM)',
+          // agenda: [
+          //     {
+          //         judul: 'Unsupervised Learning · Probabilitas · K-Means',
+          //         konsep: 'Unsupervised Learning · Probabilitas · K-Means',
+          //         materi: [['Slide: Unsupervised Learnin ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+          //             ['Modul Belajar 4', 'dokumen/Lec_4_Means_dan_Probabilitas.ipynb' ],],
+          //     },
+          //     {
+          //         judul: 'Tugas Mandiri', konsep: '',
+          //         materi: [
+          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Form Pengumpulan :', '']
+          //         ],
+          //     },
+          //     ],
       },
       {
         n: '5',minggu: 'Minggu 5', tanggal: '28 Sep – 4 Okt',
@@ -155,7 +189,22 @@ jadwal: [
         label: 'Sub-CPMK 5',
         bobot: '5%',
         warna: '2F6B8A',
-        catatan: 'Linear Regression · Fungsi basis · Vektorisasi · Error Function · Minimasi Error · Evaluasi Model'
+        catatan: 'Linear Regression · Fungsi basis · Vektorisasi · Error Function · Minimasi Error · Evaluasi Model',
+          // agenda: [
+          //     {
+          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+          //     },
+          //     {
+          //         judul: 'Tugas Mandiri', konsep: '',
+          //         materi: [
+          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Form Pengumpulan :', '']
+          //         ],
+          //     },
+          //     ],
       },
       {
         n: '6', minggu: 'Minggu 6', tanggal: '5 – 11 Okt',
@@ -163,7 +212,22 @@ jadwal: [
         label: 'Sub-CPMK 6',
         bobot: '5%',
         warna: '2F6B8A',
-        catatan: 'Regularized Least Squares · Ridge · Lasso · Normal Equation · Perbandingan OLS dan Regularisasi'
+        catatan: 'Regularized Least Squares · Ridge · Lasso · Normal Equation · Perbandingan OLS dan Regularisasi',
+          // agenda: [
+          //     {
+          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+          //     },
+          //     {
+          //         judul: 'Tugas Mandiri', konsep: '',
+          //         materi: [
+          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Form Pengumpulan :', '']
+          //         ],
+          //     },
+          //     ],
       },
       {
         n: '7',  minggu: 'Minggu 7',
@@ -171,7 +235,22 @@ jadwal: [
         label: 'Sub-CPMK 6',
         bobot: '5%',
         warna: '2F6B8A',
-        catatan: 'Maximum Likelihood Estimation · Prior Beliefs · Distribusi Noise · Bias-Variance Trade-off'
+        catatan: 'Maximum Likelihood Estimation · Prior Beliefs · Distribusi Noise · Bias-Variance Trade-off',
+          // agenda: [
+          //     {
+          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+          //     },
+          //     {
+          //         judul: 'Tugas Mandiri', konsep: '',
+          //         materi: [
+          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Form Pengumpulan :', '']
+          //         ],
+          //     },
+          //     ],
       },
       {
         n: '8',  minggu: 'Minggu 8',
@@ -193,7 +272,22 @@ jadwal: [
         label: 'Sub-CPMK 7',
         bobot: '5%',
         warna: '2F6B8A',
-        catatan: 'Klasifikasi linier · Fungsi sigmoid · Model probabilistik · Regularisasi · Optimisasi'
+        catatan: 'Klasifikasi linier · Fungsi sigmoid · Model probabilistik · Regularisasi · Optimisasi',
+          // agenda: [
+          //     {
+          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+          //     },
+          //     {
+          //         judul: 'Tugas Mandiri', konsep: '',
+          //         materi: [
+          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Form Pengumpulan :', '']
+          //         ],
+          //     },
+          //     ],
       },
       {
         n: '10',  minggu: 'Minggu 10',
@@ -201,7 +295,22 @@ jadwal: [
         label: 'Sub-CPMK 8',
         bobot: '5%',
         warna: '2F6B8A',
-        catatan: 'Multi-Class Classification · Confusion Matrix · ROC · F1-Score · Evaluasi performa'
+        catatan: 'Multi-Class Classification · Confusion Matrix · ROC · F1-Score · Evaluasi performa',
+          // agenda: [
+          //     {
+          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+          //     },
+          //     {
+          //         judul: 'Tugas Mandiri', konsep: '',
+          //         materi: [
+          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Form Pengumpulan :', '']
+          //         ],
+          //     },
+          //     ],
       },
       {
         n: '11', minggu: 'Minggu 11',
@@ -209,7 +318,22 @@ jadwal: [
         label: 'Sub-CPMK 9',
         bobot: '5%',
         warna: '2F6B8A',
-        catatan: 'Gradient Descent · Stochastic Gradient Descent · Konvergensi · Perbandingan GD dan SGD'
+        catatan: 'Gradient Descent · Stochastic Gradient Descent · Konvergensi · Perbandingan GD dan SGD',
+          // agenda: [
+          //     {
+          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+          //     },
+          //     {
+          //         judul: 'Tugas Mandiri', konsep: '',
+          //         materi: [
+          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Form Pengumpulan :', '']
+          //         ],
+          //     },
+          //     ],
       },
       {
         n: '12',minggu: 'Minggu 12',
@@ -217,7 +341,22 @@ jadwal: [
         label: 'Sub-CPMK 10',
         bobot: '5%',
         warna: '6B5B95',
-        catatan: 'Model Non-linear · Arsitektur Neural Network · Fungsi Aktivasi · Implementasi PyTorch'
+        catatan: 'Model Non-linear · Arsitektur Neural Network · Fungsi Aktivasi · Implementasi PyTorch',
+          // agenda: [
+          //     {
+          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+          //     },
+          //     {
+          //         judul: 'Tugas Mandiri', konsep: '',
+          //         materi: [
+          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Form Pengumpulan :', '']
+          //         ],
+          //     },
+          //     ],
       },
       {
         n: '13', minggu: 'Minggu 13',
@@ -225,7 +364,22 @@ jadwal: [
         label: 'Sub-CPMK 10',
         bobot: '5%',
         warna: '6B5B95',
-        catatan: 'Implementasi Neural Network dengan PyTorch · Backpropagation · Tuning Model · Peer Review'
+        catatan: 'Implementasi Neural Network dengan PyTorch · Backpropagation · Tuning Model · Peer Review',
+          // agenda: [
+          //     {
+          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+          //     },
+          //     {
+          //         judul: 'Tugas Mandiri', konsep: '',
+          //         materi: [
+          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Form Pengumpulan :', '']
+          //         ],
+          //     },
+          //     ],
       },
       {
         n: '14', minggu: 'Minggu 14',

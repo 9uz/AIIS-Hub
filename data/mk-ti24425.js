@@ -76,10 +76,10 @@ window.MK.push({
     ['Sub-CPMK 12', 'Menganalisis representasi data teks sebagai jembatan menuju arsitektur modern, serta konsep dasar CNN, RNN, dan LLM beserta implikasi etisnya. (C4)'],
   ],
 
-  catatanCpmk: 'CPMK081 tidak dipetakan pada penguasaan materi tertentu, melainkan pada asesmen yang secara langsung mengukur kemandirian belajar: Tugas Terstruktur 5 pada pertemuan 13 dan Studi Kasus Akhir pada pertemuan 14\u201315.',
-
-  // ---------- Jadwal ----------
-  catatanJadwal: 'Berkas materi tersedia dalam format PowerPoint. Setiap berkas memuat catatan pembicara beserta kunci jawaban latihan.',
+  // catatanCpmk: 'CPMK081 tidak dipetakan pada penguasaan materi tertentu, melainkan pada asesmen yang secara langsung mengukur kemandirian belajar: Tugas Terstruktur 5 pada pertemuan 13 dan Studi Kasus Akhir pada pertemuan 14\u201315.',
+  //
+  // // ---------- Jadwal ----------
+  // catatanJadwal: 'Berkas materi tersedia dalam format PowerPoint. Setiap berkas memuat catatan pembicara beserta kunci jawaban latihan.',
 
   jadwal: [
     {
@@ -89,7 +89,7 @@ window.MK.push({
 			agenda: [
             {
               judul: 'Pengantar Data Science dan Etika Data', konsep: 'Pengantar Data Science dan Etika Data',
-              materi: [['Slide: Pengantar Data Science', '']],
+              materi: [['Slide: Pengantar Data Science', 'slide/P1. Pengantar.pdf']],
             },
             {
               judul: 'Proyek Kelompok', konsep: 'Pembentukan kelompok dan dokumentasi awal proyek',
@@ -97,7 +97,14 @@ window.MK.push({
             },
           ],
 		},
-        { n: '2',minggu: 'Minggu 2', tanggal: '7 – 13 Sep', topik: 'Anatomi Pipeline dan Kualitas Data', label: 'Sub-CPMK 2', bobot: '5%', warna: '2A4B7C', catatan: 'Missing value, outlier, encoding, scaling, EDA' },
+        { n: '2',minggu: 'Minggu 2', tanggal: '7 – 13 Sep', topik: 'Anatomi Pipeline dan Kualitas Data', label: 'Sub-CPMK 2', bobot: '5%', warna: '2A4B7C', catatan: 'Missing value, outlier, encoding, scaling, EDA',
+            agenda: [
+                {
+                    judul: 'Anatomi Pipeline dan Kualitas Data', konsep: 'Missing value, outlier, encoding, scaling, EDA',
+                    materi: [['Slide: Kualitas Data ....', 'slide/P02_Anatomi_Pipeline_dan_Kualitas_Data.pptx']],
+                },
+            ],
+        },
         { n: '3',minggu: 'Minggu 3', tanggal: '14 – 20 Sep', topik: 'Learning Problem dan Pembagian Data', label: 'Sub-CPMK 3', bobot: '8%', warna: '2A4B7C', catatan: 'Ruang hipotesis, bias induktif, data leakage \u00b7 ' ,
 		agenda: [
             {
@@ -110,7 +117,14 @@ window.MK.push({
             },
           ],
 		  },
-        { n: '4',minggu: 'Minggu 4', tanggal: '21 – 27 Sep', topik: 'Regresi Linier, Fungsi Loss, dan Gradient Descent', label: 'Sub-CPMK 4', bobot: '5%', warna: '21295C', catatan: 'MSE, gradient descent, learning rate, SGD', berkas: 'slides/P04_Regresi_Linier_dan_Gradient_Descent.pptx' },
+        { n: '4',minggu: 'Minggu 4', tanggal: '21 – 27 Sep', topik: 'Regresi Linier, Fungsi Loss, dan Gradient Descent', label: 'Sub-CPMK 4', bobot: '5%', warna: '21295C', catatan: 'MSE, gradient descent, learning rate, SGD',
+            agenda: [
+                {
+                    judul: 'Latihan 1', konsep: '',
+                    materi: [['Latihan 1', '']],
+                },
+            ],
+            berkas: 'slides/P04_Regresi_Linier_dan_Gradient_Descent.pptx' },
         { n: '5',minggu: 'Minggu 5', tanggal: '28 Sep – 4 Okt', topik: 'Regularisasi, MLE, dan Bias-Variance Trade-off', label: 'Sub-CPMK 5', bobot: '8%', warna: 'B85042', catatan: 'Ridge, Lasso, underfitting, overfitting \u00b7 ',
 		agenda: [
             {
@@ -123,7 +137,14 @@ window.MK.push({
             },
           ],
 		},
-        { n: '6',minggu: 'Minggu 6', tanggal: '5 – 11 Okt', topik: 'Klasifikasi Linier: Logistic Regression', label: 'Sub-CPMK 6', bobot: '5%', warna: '1C2B36', catatan: 'Sigmoid, odds, cross-entropy, ambang batas', berkas: 'slides/P06_Logistic_Regression.pptx' },
+        { n: '6',minggu: 'Minggu 6', tanggal: '5 – 11 Okt', topik: 'Klasifikasi Linier: Logistic Regression', label: 'Sub-CPMK 6', bobot: '5%', warna: '1C2B36', catatan: 'Sigmoid, odds, cross-entropy, ambang batas',
+            agenda: [
+                {
+                    judul: 'Latihan 2', konsep: '',
+                    materi: [['Latihan 2', '']],
+                },
+            ],
+            berkas: 'slides/P06_Logistic_Regression.pptx' },
         { n: '7',minggu: 'Minggu 7', tanggal: '12 – 18 Okt', topik: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi', label: 'Sub-CPMK 7', bobot: '8%', warna: '2F2545', catatan: 'Softmax, confusion matrix, precision, recall, ROC \u00b7 Tugas 3',
 		agenda: [
             {
@@ -142,7 +163,14 @@ window.MK.push({
     {
       blok: 'Setelah Ujian Tengah Semester',
       pertemuan: [
-        { n: '9',minggu: 'Minggu 9', tanggal: '26 Okt – 1 Nov', topik: 'Validasi Model dan Tuning Hyperparameter', label: 'Sub-CPMK 8', bobot: '5%', warna: '3A2028', catatan: 'k-fold, stratified, grid vs random search, kebocoran data', berkas: 'slides/P09_Validasi_dan_Tuning_Hyperparameter.pptx' },
+        { n: '9',minggu: 'Minggu 9', tanggal: '26 Okt – 1 Nov', topik: 'Validasi Model dan Tuning Hyperparameter', label: 'Sub-CPMK 8', bobot: '5%', warna: '3A2028', catatan: 'k-fold, stratified, grid vs random search, kebocoran data',
+            agenda: [
+                {
+                    judul: 'Latihan 2', konsep: '',
+                    materi: [['Latihan 2', '']],
+                },
+            ],
+            berkas: 'slides/P09_Validasi_dan_Tuning_Hyperparameter.pptx' },
         { n: '10',minggu: 'Minggu 10', tanggal: '2 – 8 Nov', topik: 'Model Berbasis Pohon dan Ensemble', label: 'Sub-CPMK 9', bobot: '8%', warna: '1B3A2F', catatan: 'Gini, pruning, bagging, boosting \u00b7 Tugas 4 \u00b7 Presentasi Kilat sesi 1', berkas: 'slides/P10_Model_Berbasis_Pohon_dan_Ensemble.pptx',
 		agenda: [
             {
@@ -178,10 +206,10 @@ window.MK.push({
     },
   ],
 
-  peringatanJadwal: {
-    judul: 'Catatan untuk pertemuan 1\u20133',
-    isi: 'Materi ketiga pertemuan ini masih memakai bahan lama dan perlu disesuaikan dengan RPS revisi \u2014 terutama penambahan pembahasan etika dan privasi data, studi kasus berdomain transportasi, serta pembahasan kebocoran data. Berkasnya belum diunggah ke situs ini.',
-  },
+  // peringatanJadwal: {
+  //   judul: 'Catatan untuk pertemuan 1\u20133',
+  //   isi: 'Materi ketiga pertemuan ini masih memakai bahan lama dan perlu disesuaikan dengan RPS revisi \u2014 terutama penambahan pembahasan etika dan privasi data, studi kasus berdomain transportasi, serta pembahasan kebocoran data. Berkasnya belum diunggah ke situs ini.',
+  // },
 
   // ---------- Penilaian ----------
   penilaian: {
