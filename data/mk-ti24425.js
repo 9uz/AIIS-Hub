@@ -109,19 +109,23 @@ window.MK.push({
 		agenda: [
             {
               judul: 'Learning Problem dan Pembagian Data', konsep: 'Learning Problem dan Pembagian Data',
-              materi: [['Slide: Learning Problem ...', '']],
+              materi: [['Slide: Learning Problem ...', 'slides/P03_Learning_Problem_dan_Pembagian_Data.pdf']],
             },
             {
-              judul: 'Tugas 1', konsep: 'Tugas 1',
-              materi: [['Tugas :', '']],
+              judul: 'Tugas 1', konsep: 'Analisis_Awal_Dataset',
+              materi: [['Tugas : Analisis_Awal_Dataset', 'dokumen/TT1_Analisis_Awal_Dataset.ipynb']],
             },
           ],
 		  },
         { n: '4',minggu: 'Minggu 4', tanggal: '21 – 27 Sep', topik: 'Regresi Linier, Fungsi Loss, dan Gradient Descent', label: 'Sub-CPMK 4', bobot: '5%', warna: '21295C', catatan: 'MSE, gradient descent, learning rate, SGD',
             agenda: [
                 {
+                    judul: 'Regresi Linier, Fungsi Loss, dan Gradient Descent', konsep: 'Learning Problem dan Pembagian Data',
+                    materi: [['Slide: Regresi Linier ...', 'slides/P04_Regresi_Linier_dan_Gradient_Descent.pdf']],
+                },
+                {
                     judul: 'Latihan 1', konsep: '',
-                    materi: [['Latihan 1', '']],
+                    // materi: [['Latihan 1', '']],
                 },
             ],
             berkas: 'slides/P04_Regresi_Linier_dan_Gradient_Descent.pptx' },
@@ -132,16 +136,21 @@ window.MK.push({
               materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P05_Regularisasi_MLE_Bias_Variance.pptx' ]],
             },
             {
-              judul: 'Tugas 2', konsep: 'Tugas 2',
-              materi: [['Tugas 2:', '']],
+              judul: 'Tugas 2', konsep: 'Diagnosis_Bias_Variance',
+              materi: [['Tugas 2: Diagnosis_Bias_Variance', 'dokumen/TT2_Diagnosis_Bias_Variance.ipynb']],
             },
           ],
 		},
-        { n: '6',minggu: 'Minggu 6', tanggal: '5 – 11 Okt', topik: 'Klasifikasi Linier: Logistic Regression', label: 'Sub-CPMK 6', bobot: '5%', warna: '1C2B36', catatan: 'Sigmoid, odds, cross-entropy, ambang batas',
+        { n: '6',minggu: 'Minggu 6', tanggal: '5 – 11 Okt',
+            topik: 'Klasifikasi Linier: Logistic Regression', label: 'Sub-CPMK 6', bobot: '5%', warna: '1C2B36', catatan: 'Sigmoid, odds, cross-entropy, ambang batas',
             agenda: [
                 {
+                    judul: 'Klasifikasi Linier: Logistic Regression', konsep: 'Klasifikasi Linier: Logistic Regression',
+                    // materi: [['Slide: Klasifikasi Linier: Logistic Regression','slides/P06_Logistic_Regression.pptx' ]],
+                },
+                {
                     judul: 'Latihan 2', konsep: '',
-                    materi: [['Latihan 2', '']],
+                    // materi: [['Latihan 2', '']],
                 },
             ],
             berkas: 'slides/P06_Logistic_Regression.pptx' },
@@ -152,8 +161,8 @@ window.MK.push({
               materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P07_MultiKelas_dan_Metrik_Evaluasi.pptx' ]],
             },
             {
-              judul: 'Tugas 3', konsep: 'Tugas 3',
-              materi: [['Tugas 3 :', '']],
+              judul: 'Tugas 3', konsep: 'Metrik_Evaluasi_dan_Ambang_Batas',
+              materi: [['Tugas 3 : Metrik_Evaluasi_dan_Ambang_Batas', 'dokumen/TT3_Metrik_Evaluasi_dan_Ambang_Batas.ipynb']],
             },
           ],
 		},
@@ -163,11 +172,16 @@ window.MK.push({
     {
       blok: 'Setelah Ujian Tengah Semester',
       pertemuan: [
-        { n: '9',minggu: 'Minggu 9', tanggal: '26 Okt – 1 Nov', topik: 'Validasi Model dan Tuning Hyperparameter', label: 'Sub-CPMK 8', bobot: '5%', warna: '3A2028', catatan: 'k-fold, stratified, grid vs random search, kebocoran data',
+        { n: '9',minggu: 'Minggu 9', tanggal: '26 Okt – 1 Nov',
+            opik: 'Validasi Model dan Tuning Hyperparameter', label: 'Sub-CPMK 8', bobot: '5%', warna: '3A2028', catatan: 'k-fold, stratified, grid vs random search, kebocoran data',
             agenda: [
                 {
-                    judul: 'Latihan 2', konsep: '',
-                    materi: [['Latihan 2', '']],
+                    judul: 'Validasi Model dan Tuning Hyperparameter', konsep: 'Validasi Model dan Tuning Hyperparameter',
+                    // materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P09_Validasi_dan_Tuning_Hyperparameter.pdf' ]],
+                },
+                {
+                    judul: 'Latihan 3', konsep: '',
+                    // materi: [['Latihan 3', '']],
                 },
             ],
             berkas: 'slides/P09_Validasi_dan_Tuning_Hyperparameter.pptx' },
@@ -181,12 +195,34 @@ window.MK.push({
               judul: 'Presentasi Kilat sesi 1', konsep: 'Presentasi Kilat sesi 1',
             },
             {
-              judul: 'Tugas 4', konsep: 'Tugas 4',
-              materi: [['Tugas 4 :', '']],
+              judul: 'Tugas 4', konsep: 'Linier_versus_Pohon',
+              materi: [['Tugas 4 : Linier_versus_Pohon', 'dokumen/TT4_Linier_versus_Pohon.ipynb']],
             },
           ],},
-        { n: '11',minggu: 'Minggu 11', tanggal: '9 – 15 Nov', topik: 'Clustering dan Dasar Probabilitas', label: 'Sub-CPMK 10', bobot: '5%', warna: '22252B', catatan: 'K-Means, elbow, silhouette, probabilitas bersyarat', berkas: 'slides/P11_Clustering_dan_Dasar_Probabilitas.pptx' },
-        { n: '12',minggu: 'Minggu 12', tanggal: '16 – 22 Nov', topik: 'Arsitektur Neural Network', label: 'Sub-CPMK 11', bobot: '5%', warna: '191B33', catatan: 'Aktivasi, forward pass, backpropagation, dropout', berkas: 'slides/P12_Arsitektur_Neural_Network.pptx' },
+        { n: '11',minggu: 'Minggu 11', tanggal: '9 – 15 Nov', topik: 'Clustering dan Dasar Probabilitas', label: 'Sub-CPMK 10', bobot: '5%', warna: '22252B', catatan: 'K-Means, elbow, silhouette, probabilitas bersyarat',
+            agenda: [
+                {
+                    judul: 'Clustering dan Dasar Probabilitas', konsep: 'Clustering dan Dasar Probabilitas',
+                    // materi: [['Slide: Clustering dan Dasar Probabilitas ...','slides/P11_Clustering_dan_Dasar_Probabilitas.pdf' ]],
+                },
+                {
+                    judul: 'Latihan 4', konsep: '',
+                    // materi: [['Latihan 4', '']],
+                },
+            ],
+            berkas: 'slides/P11_Clustering_dan_Dasar_Probabilitas.pptx' },
+        { n: '12',minggu: 'Minggu 12', tanggal: '16 – 22 Nov',
+            topik: 'Arsitektur Neural Network', label: 'Sub-CPMK 11', bobot: '5%', warna: '191B33', catatan: 'Aktivasi, forward pass, backpropagation, dropout',
+            agenda: [
+                {
+                    judul: 'Arsitektur Neural Network', konsep: 'Arsitektur Neural Network',
+                    // materi: [['Slide: Clustering dan Dasar Probabilitas ...','slides/P11_Clustering_dan_Dasar_Probabilitas.pdf' ]],
+                },
+                {
+                    judul: 'Latihan 5', konsep: '',
+                    // materi: [['Latihan 5', '']],
+                },
+            ],berkas: 'slides/P12_Arsitektur_Neural_Network.pptx' },
         { n: '13',minggu: 'Minggu 13', tanggal: '23 – 29 Nov', topik: 'Representasi Teks, CNN, RNN, dan LLM', label: 'Sub-CPMK 12', bobot: '8%', warna: '0F3743', catatan: 'BoW, TF-IDF, attention, etika LLM \u00b7 Tugas 5 \u00b7 Presentasi Kilat sesi 2', berkas: '' ,
 		agenda: [
             {
@@ -194,8 +230,8 @@ window.MK.push({
               materi: [['Slide: Representasi Teks, CNN, ...','slides/P13_Teks_CNN_RNN_dan_LLM.pptx' ]],
             },
             {
-              judul: 'Tugas 5', konsep: 'Tugas 5',
-              materi: [['Tugas 5 :', '']],
+              judul: 'Tugas 5', konsep: 'Algoritma',
+              materi: [['Tugas 5 : Algoritma', 'dokumen/TT5_Telaah_Mandiri_Algoritma.ipynb']],
             },
           ],
 		},

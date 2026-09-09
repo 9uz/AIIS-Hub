@@ -131,8 +131,8 @@ jadwal: [
             {
                 judul: 'Tugas Mandiri', konsep: 'Mengevaluasi stabilitas, performa, efisiensi, dan karakteristik kesalahan dari model machine learning',
                 materi: [
-                    ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
-                    ['Form Pengumpulan :', '']
+                    ['Tugas Praktikum 2', 'dokumen/tugas2.ipynb' ],
+                    ['Form Pengumpulan :', 'https://forms.gle/T7ANxwsh2RK3rwE68']
                 ],
             },
           ],
@@ -144,21 +144,22 @@ jadwal: [
         bobot: '5%',
         warna: '2F6B8A',
         catatan: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
-          // agenda: [
-          //     {
-          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
-          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
-          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/03_Terminologi_Optimisasi_Evaluasi.pdf' ],
-          //             ],
-          //     },
-          //     {
-          //         judul: 'Tugas Mandiri', konsep: 'Penerapan Siklus Machine Learning Dataset_UCI',
-          //         materi: [
-          //             ['Tugas Praktikum 3', 'dokumen/Tugas_3_Penerapan_Dataset_UCI.ipynb' ],
-          //             ['Form Pengumpulan :', '']
-          //         ],
-          //     },
-          //     ],
+          agenda: [
+              {
+                  judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+                  konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+                  materi: [
+                      ['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/03_Terminologi_Optimisasi_Evaluasi.pdf' ],
+                      ],
+              },
+              {
+                  judul: 'Tugas Mandiri', konsep: 'Penerapan Siklus Machine Learning Dataset_UCI',
+                  materi: [
+                      ['Tugas Praktikum 3', 'dokumen/Tugas_3_Penerapan_Dataset_UCI.ipynb' ],
+                      ['Form Pengumpulan :', '']
+                  ],
+              },
+              ],
       },
       {
         n: '4', minggu: 'Minggu 4', tanggal: '21 – 27 Sep',
@@ -167,21 +168,21 @@ jadwal: [
         bobot: '5%',
         warna: '2F6B8A',
         catatan: 'Unsupervised Learning · Probabilitas · K-Means · Gaussian Mixture Model (GMM)',
-          // agenda: [
-          //     {
-          //         judul: 'Unsupervised Learning · Probabilitas · K-Means',
-          //         konsep: 'Unsupervised Learning · Probabilitas · K-Means',
-          //         materi: [['Slide: Unsupervised Learnin ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-          //             ['Modul Belajar 4', 'dokumen/Lec_4_Means_dan_Probabilitas.ipynb' ],],
-          //     },
-          //     {
-          //         judul: 'Tugas Mandiri', konsep: '',
-          //         materi: [
-          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
-          //             ['Form Pengumpulan :', '']
-          //         ],
-          //     },
-          //     ],
+          agenda: [
+              {
+                  judul: 'Unsupervised Learning · Probabilitas · K-Means',
+                  konsep: 'Unsupervised Learning · Probabilitas · K-Means',
+                  // materi: [['Slide: Unsupervised Learnin ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+                  //     ['Modul Belajar 4', 'dokumen/Lec_4_Means_dan_Probabilitas.ipynb' ],],
+              },
+              {
+                  judul: 'Tugas Mandiri', konsep: '',
+                  // materi: [
+                  //     ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+                  //     ['Form Pengumpulan :', '']
+                  // ],
+              },
+              ],
       },
       {
         n: '5',minggu: 'Minggu 5', tanggal: '28 Sep – 4 Okt',
