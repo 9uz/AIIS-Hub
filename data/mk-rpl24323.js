@@ -111,12 +111,27 @@ window.MK.push({
                             judul: 'Version Control System & Inisiasi PjBL', konsep: 'Version Control System & Inisiasi PjBL',
                             materi: [
                                 ['Modul: E-modul 2 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','#']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/MDVjwdSruTUVW3bb7']
                                ],
                         },
                     ],
                 },
-                { n: '3', minggu: 'Minggu 3', topik: 'Pemrograman Dasar MVC', label: 'Sub-CPMK 1', bobot: '5%', catatan: 'Konsep Arsitektur MVC, Pembuatan Routes, Penulisan Controller Dasar, dan Perenderan View Sederhana[cite: 1]', media: 'Framework Backend, Modul 3[cite: 1]' },
+                { n: '3', minggu: 'Minggu 3', topik: 'Framework Backend dan Pemilihan Pendekatan Pengembangan', label: 'Sub-CPMK 1', bobot: '5%', catatan: 'Konsep Arsitektur MVC, Pembuatan Routes, Penulisan Controller Dasar, dan Perenderan View Sederhana[cite: 1]', media: 'Framework Backend, Modul 3',
+                    agenda: [
+                        {
+                            judul: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
+                            konsep: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
+                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','slides/3.Framework_Backend_dan_Pemilihan_Pendekatan.pdf' ]]
+                        },
+                        {
+                            judul: 'Pemrograman Dasar MVC', konsep: 'Pemrograman Dasar MVC',
+                            materi: [
+                                ['Modul: E-modul 3 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Pengumpulan Lembar Kerja','']
+                            ],
+                        },
+                    ],
+                },
                 { n: '4', minggu: 'Minggu 4', topik: 'Struktur Kontrol & Antarmuka', label: 'Sub-CPMK 2', bobot: '5%', catatan: 'Passing Controller ke View, Direktif Percabangan, Direktif Perulangan, dan Pencetakan Nilai Aman[cite: 1]', media: 'Framework Backend, Modul 4[cite: 1]' },
                 { n: '5', minggu: 'Minggu 5', topik: 'Teknik Objek & Database', label: 'Sub-CPMK 5', bobot: '4%', catatan: 'Konfigurasi Koneksi DB, Konsep ORM vs SQL, Pembuatan Migration Tabel, dan Pembuatan Model Relasi[cite: 1]', media: 'Framework Backend, Modul 5[cite: 1]' },
                 { n: '6', minggu: 'Minggu 6', topik: 'Logika ORM Lanjutan (CRUD)', label: 'Sub-CPMK 2', bobot: '5%', catatan: 'Operasi Create, Read, Update, Delete, serta Filtering Data[cite: 1]', media: 'Framework Backend, Modul 6[cite: 1]' },
