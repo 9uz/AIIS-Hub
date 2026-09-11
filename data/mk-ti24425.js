@@ -113,7 +113,11 @@ window.MK.push({
             },
             {
               judul: 'Tugas 1', konsep: 'Analisis_Awal_Dataset',
-              materi: [['Tugas : Analisis_Awal_Dataset', 'dokumen/TT1_Analisis_Awal_Dataset.ipynb']],
+              materi: [
+                  ['Tugas : Analisis_Awal_Dataset', 'dokumen/TT1_Analisis_Awal_Dataset.ipynb'],
+                    ['Form Pengumpulan Tugas 1','']
+              ],
+
             },
           ],
 		  },
@@ -124,8 +128,8 @@ window.MK.push({
                     materi: [['Slide: Regresi Linier ...', 'slides/P04_Regresi_Linier_dan_Gradient_Descent.pdf']],
                 },
                 {
-                    judul: 'Latihan 1', konsep: '',
-                    // materi: [['Latihan 1', '']],
+                    judul: 'Latihan 1', konsep: 'Gradient_Descent',
+                    // materi: [['Latihan 1 ', 'dokumen/LF04_Gradient_Descent.ipynb']],
                 },
             ],
             berkas: 'slides/P04_Regresi_Linier_dan_Gradient_Descent.pptx' },
@@ -137,7 +141,8 @@ window.MK.push({
             },
             {
               judul: 'Tugas 2', konsep: 'Diagnosis_Bias_Variance',
-              materi: [['Tugas 2: Diagnosis_Bias_Variance', 'dokumen/TT2_Diagnosis_Bias_Variance.ipynb']],
+              materi: [['Tugas 2: Diagnosis_Bias_Variance', 'dokumen/TT2_Diagnosis_Bias_Variance.ipynb'],
+              ['Form Pengumpulan Tugas 2','']],
             },
           ],
 		},
@@ -149,8 +154,8 @@ window.MK.push({
                     // materi: [['Slide: Klasifikasi Linier: Logistic Regression','slides/P06_Logistic_Regression.pptx' ]],
                 },
                 {
-                    judul: 'Latihan 2', konsep: '',
-                    // materi: [['Latihan 2', '']],
+                    judul: 'Latihan 2', konsep: 'Logistic_Regression',
+                    // materi: [['Latihan 2 ', 'dokumen/LF06_Logistic_Regression.ipynb']],
                 },
             ],
             berkas: 'slides/P06_Logistic_Regression.pptx' },
@@ -162,7 +167,8 @@ window.MK.push({
             },
             {
               judul: 'Tugas 3', konsep: 'Metrik_Evaluasi_dan_Ambang_Batas',
-              materi: [['Tugas 3 : Metrik_Evaluasi_dan_Ambang_Batas', 'dokumen/TT3_Metrik_Evaluasi_dan_Ambang_Batas.ipynb']],
+              materi: [['Tugas 3 : Metrik_Evaluasi_dan_Ambang_Batas', 'dokumen/TT3_Metrik_Evaluasi_dan_Ambang_Batas.ipynb'],
+              ['Form Pengumpulan Tugas 3','']],
             },
           ],
 		},
@@ -180,8 +186,8 @@ window.MK.push({
                     // materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P09_Validasi_dan_Tuning_Hyperparameter.pdf' ]],
                 },
                 {
-                    judul: 'Latihan 3', konsep: '',
-                    // materi: [['Latihan 3', '']],
+                    judul: 'Latihan 3', konsep: 'Validasi_dan_Audit_Prosedur',
+                    // materi: [['Latihan 3 ', 'dokumen/LF09_Validasi_dan_Audit_Prosedur.ipynb']],
                 },
             ],
             berkas: 'slides/P09_Validasi_dan_Tuning_Hyperparameter.pptx' },
@@ -196,7 +202,8 @@ window.MK.push({
             },
             {
               judul: 'Tugas 4', konsep: 'Linier_versus_Pohon',
-              materi: [['Tugas 4 : Linier_versus_Pohon', 'dokumen/TT4_Linier_versus_Pohon.ipynb']],
+              materi: [['Tugas 4 : Linier_versus_Pohon', 'dokumen/TT4_Linier_versus_Pohon.ipynb'],
+              ['Form Pengumpulan Tugas 4','']],
             },
           ],},
         { n: '11',minggu: 'Minggu 11', tanggal: '9 – 15 Nov', topik: 'Clustering dan Dasar Probabilitas', label: 'Sub-CPMK 10', bobot: '5%', warna: '22252B', catatan: 'K-Means, elbow, silhouette, probabilitas bersyarat',
@@ -206,8 +213,8 @@ window.MK.push({
                     // materi: [['Slide: Clustering dan Dasar Probabilitas ...','slides/P11_Clustering_dan_Dasar_Probabilitas.pdf' ]],
                 },
                 {
-                    judul: 'Latihan 4', konsep: '',
-                    // materi: [['Latihan 4', '']],
+                    judul: 'Latihan 4', konsep: 'KMeans_dan_Profil_Klaster',
+                    // materi: [['Latihan 4 ', 'dokumen/LF11_KMeans_dan_Profil_Klaster.ipynb']],
                 },
             ],
             berkas: 'slides/P11_Clustering_dan_Dasar_Probabilitas.pptx' },
@@ -216,22 +223,23 @@ window.MK.push({
             agenda: [
                 {
                     judul: 'Arsitektur Neural Network', konsep: 'Arsitektur Neural Network',
-                    // materi: [['Slide: Clustering dan Dasar Probabilitas ...','slides/P11_Clustering_dan_Dasar_Probabilitas.pdf' ]],
+                    // materi: [['Slide: Clustering dan Dasar Probabilitas ...','slides/P12_Arsitektur_Neural_Network.pdf' ]],
                 },
                 {
                     judul: 'Latihan 5', konsep: '',
-                    // materi: [['Latihan 5', '']],
+                    // materi: [['Latihan 5 ', 'dokumen/LF12_Neural_Network.ipynb']],
                 },
             ],berkas: 'slides/P12_Arsitektur_Neural_Network.pptx' },
         { n: '13',minggu: 'Minggu 13', tanggal: '23 – 29 Nov', topik: 'Representasi Teks, CNN, RNN, dan LLM', label: 'Sub-CPMK 12', bobot: '8%', warna: '0F3743', catatan: 'BoW, TF-IDF, attention, etika LLM \u00b7 Tugas 5 \u00b7 Presentasi Kilat sesi 2', berkas: '' ,
 		agenda: [
             {
               judul: 'Representasi Teks, CNN, RNN, dan LLM', konsep: 'Representasi Teks, CNN, RNN, dan LLM',
-              materi: [['Slide: Representasi Teks, CNN, ...','slides/P13_Teks_CNN_RNN_dan_LLM.pptx' ]],
+              // materi: [['Slide: Representasi Teks, CNN, ...','slides/P13_Teks_CNN_RNN_dan_LLM.pdf' ]],
             },
             {
               judul: 'Tugas 5', konsep: 'Algoritma',
-              materi: [['Tugas 5 : Algoritma', 'dokumen/TT5_Telaah_Mandiri_Algoritma.ipynb']],
+              materi: [['Tugas 5 : Algoritma', 'dokumen/TT5_Telaah_Mandiri_Algoritma.ipynb'],
+              ['Form Pengumpulan Tugas 5','']],
             },
           ],
 		},

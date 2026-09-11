@@ -105,7 +105,7 @@ window.MK.push({
                                 '3. Arsitektur MVC\n' +
                                 '4. Komponen Model,View, Controller\n' +
                                 '5. Alur pengembangan aplikasi berbasis MVC',
-                        materi: [['Slide : 2. Arsitektur_Aplikasi_Revisi.pdf','slides/2.Arsitektur_Aplikasi_Revisi.pdf' ]]
+                        materi: [['Slide : 2. Arsitektur_Aplikasi_Revisi','slides/2.Arsitektur_Aplikasi_Revisi.pdf' ]]
                         },
                         {
                             judul: 'Version Control System & Inisiasi PjBL', konsep: 'Version Control System & Inisiasi PjBL',
