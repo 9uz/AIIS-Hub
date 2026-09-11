@@ -132,7 +132,23 @@ window.MK.push({
                         },
                     ],
                 },
-                { n: '4', minggu: 'Minggu 4', topik: 'Struktur Kontrol & Antarmuka', label: 'Sub-CPMK 2', bobot: '5%', catatan: 'Passing Controller ke View, Direktif Percabangan, Direktif Perulangan, dan Pencetakan Nilai Aman[cite: 1]', media: 'Framework Backend, Modul 4[cite: 1]' },
+                { n: '4', minggu: 'Minggu 4', topik: 'Struktur Kontrol & Antarmuka', label: 'Sub-CPMK 2', bobot: '5%',
+                    catatan: 'Passing Controller ke View, Direktif Percabangan, Direktif Perulangan, dan Pencetakan Nilai Aman', media: 'Framework Backend, Modul 4',
+                    agenda: [
+                        {
+                            judul: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
+                            konsep: 'Laravel sebagai Framework Backend',
+                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
+                        },
+                        {
+                            judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
+                            materi: [
+                                ['Modul: E-modul 4 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Pengumpulan Lembar Kerja','']
+                            ],
+                        },
+                        ],
+                },
                 { n: '5', minggu: 'Minggu 5', topik: 'Teknik Objek & Database', label: 'Sub-CPMK 5', bobot: '4%', catatan: 'Konfigurasi Koneksi DB, Konsep ORM vs SQL, Pembuatan Migration Tabel, dan Pembuatan Model Relasi[cite: 1]', media: 'Framework Backend, Modul 5[cite: 1]' },
                 { n: '6', minggu: 'Minggu 6', topik: 'Logika ORM Lanjutan (CRUD)', label: 'Sub-CPMK 2', bobot: '5%', catatan: 'Operasi Create, Read, Update, Delete, serta Filtering Data[cite: 1]', media: 'Framework Backend, Modul 6[cite: 1]' },
                 { n: '7', minggu: 'Minggu 7', topik: 'Kode Terstruktur & Validasi', label: 'Sub-CPMK 3', bobot: '5%', catatan: 'Validasi Masukan Server-side, Penanganan Pesan Error, Standarisasi Clean Code, dan Komentar Dokumentasi[cite: 1]', media: 'Framework Backend, Modul 7[cite: 1]' },
