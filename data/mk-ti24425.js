@@ -115,7 +115,7 @@ window.MK.push({
               judul: 'Tugas 1', konsep: 'Analisis_Awal_Dataset',
               materi: [
                   ['Tugas : Analisis_Awal_Dataset', 'dokumen/TT1_Analisis_Awal_Dataset.ipynb'],
-                    ['Form Pengumpulan Tugas 1','']
+                  ['Form Pengumpulan Tugas 1','https://forms.gle/x8yB5DP8XAJBJ8vC9']
               ],
 
             },
@@ -129,7 +129,7 @@ window.MK.push({
                 },
                 {
                     judul: 'Latihan 1', konsep: 'Gradient_Descent',
-                    // materi: [['Latihan 1 ', 'dokumen/LF04_Gradient_Descent.ipynb']],
+                    materi: [['Latihan 1 ', 'dokumen/LF04_Gradient_Descent.ipynb']],
                 },
             ],
             berkas: 'slides/P04_Regresi_Linier_dan_Gradient_Descent.pptx' },
