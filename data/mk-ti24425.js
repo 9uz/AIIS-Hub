@@ -151,11 +151,11 @@ window.MK.push({
             agenda: [
                 {
                     judul: 'Klasifikasi Linier: Logistic Regression', konsep: 'Klasifikasi Linier: Logistic Regression',
-                    // materi: [['Slide: Klasifikasi Linier: Logistic Regression','slides/P06_Logistic_Regression.pptx' ]],
+                    materi: [['Slide: Klasifikasi Linier: Logistic Regression','slides/P06_Logistic_Regression.pptx' ]],
                 },
                 {
                     judul: 'Latihan 2', konsep: 'Logistic_Regression',
-                    // materi: [['Latihan 2 ', 'dokumen/LF06_Logistic_Regression.ipynb']],
+                    materi: [['Latihan 2 ', 'dokumen/LF06_Logistic_Regression.ipynb']],
                 },
             ],
             berkas: 'slides/P06_Logistic_Regression.pptx' },
