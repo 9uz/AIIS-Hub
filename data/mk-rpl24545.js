@@ -172,15 +172,15 @@ jadwal: [
               {
                   judul: 'Unsupervised Learning · Probabilitas · K-Means',
                   konsep: 'Unsupervised Learning · Probabilitas · K-Means',
-                  // materi: [['Slide: Unsupervised Learnin ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-                  //     ['Modul Belajar 4', 'dokumen/Lec_4_Means_dan_Probabilitas.ipynb' ],],
+                  materi: [['Slide: Unsupervised Learnin ...','slides/004_Pembelajaran_Tak_Terawasi.pdf' ],
+                      ['Modul Belajar 4 KMeans_dan_Probabilitas', 'dokumen/Pertemuan04_KMeans_dan_Probabilitas.ipynb' ],],
               },
               {
-                  judul: 'Tugas Mandiri', konsep: '',
-                  // materi: [
-                  //     ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
-                  //     ['Form Pengumpulan :', '']
-                  // ],
+                  judul: 'Tugas Mandiri', konsep: 'LKM_04_Unsupervised_dan_Probabilitas',
+                  materi: [
+                      ['Tugas Praktikum 4', 'dokumen/LKM_04_Unsupervised_dan_Probabilitas.ipynb' ],
+                      ['Form Pengumpulan :', '']
+                  ],
               },
               ],
       },
@@ -193,15 +193,15 @@ jadwal: [
         catatan: 'Linear Regression · Fungsi basis · Vektorisasi · Error Function · Minimasi Error · Evaluasi Model',
           // agenda: [
           //     {
-          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
-          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
-          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+          //         judul: 'Linear Regression · Fungsi basis · Vektorisasi',
+          //         konsep: 'Linear Regression · Fungsi basis · Vektorisasi · Error Function · Minimasi Error · Evaluasi Model',
+          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/05_Regresi_Linier_Formulasi_Dasar_dan_Minimasi_Error.pdf' ],
+          //             ['Modul Belajar 5', 'dokumen/Pertemuan05_Regresi_Linear_1.ipynb' ],],
           //     },
           //     {
           //         judul: 'Tugas Mandiri', konsep: '',
           //         materi: [
-          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Tugas Praktikum 5', 'dokumen/LKM_05_Regresi_Linear.ipynb' ],
           //             ['Form Pengumpulan :', '']
           //         ],
           //     },

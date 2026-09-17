@@ -127,7 +127,7 @@ window.MK.push({
                             judul: 'Pemrograman Dasar MVC', konsep: 'Pemrograman Dasar MVC',
                             materi: [
                                 ['Modul: E-modul 3 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/xEkwwBtUQnKspwRn8']
                             ],
                         },
                     ],
@@ -159,7 +159,7 @@ window.MK.push({
                         {
                             judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
                             materi: [
-                                ['Modul: E-modul 4 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Modul: E-modul 5 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
                                 ['Pengumpulan Lembar Kerja','']
                             ],
                         },
@@ -175,7 +175,7 @@ window.MK.push({
                         {
                             judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
                             materi: [
-                                ['Modul: E-modul 4 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Modul: E-modul 6 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
                                 ['Pengumpulan Lembar Kerja','']
                             ],
                         },
@@ -191,7 +191,7 @@ window.MK.push({
                         {
                             judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
                             materi: [
-                                ['Modul: E-modul 4 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Modul: E-modul 7 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
                                 ['Pengumpulan Lembar Kerja','']
                             ],
                         },
