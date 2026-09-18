@@ -191,21 +191,21 @@ jadwal: [
         bobot: '5%',
         warna: '2F6B8A',
         catatan: 'Linear Regression · Fungsi basis · Vektorisasi · Error Function · Minimasi Error · Evaluasi Model',
-          // agenda: [
-          //     {
-          //         judul: 'Linear Regression · Fungsi basis · Vektorisasi',
-          //         konsep: 'Linear Regression · Fungsi basis · Vektorisasi · Error Function · Minimasi Error · Evaluasi Model',
-          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/05_Regresi_Linier_Formulasi_Dasar_dan_Minimasi_Error.pdf' ],
-          //             ['Modul Belajar 5', 'dokumen/Pertemuan05_Regresi_Linear_1.ipynb' ],],
-          //     },
-          //     {
-          //         judul: 'Tugas Mandiri', konsep: '',
-          //         materi: [
-          //             ['Tugas Praktikum 5', 'dokumen/LKM_05_Regresi_Linear.ipynb' ],
-          //             ['Form Pengumpulan :', '']
-          //         ],
-          //     },
-          //     ],
+          agenda: [
+              {
+                  judul: 'Linear Regression · Fungsi basis · Vektorisasi',
+                  konsep: 'Linear Regression · Fungsi basis · Vektorisasi · Error Function · Minimasi Error · Evaluasi Model',
+                  materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/05_Regresi_Linier_Formulasi_Dasar_dan_Minimasi_Error.pdf' ],
+                      ['Modul Belajar 5', 'dokumen/Pertemuan05_Regresi_Linear_1.ipynb' ],],
+              },
+              {
+                  judul: 'Tugas Mandiri', konsep: '',
+                  materi: [
+                      ['Tugas Praktikum 5', 'dokumen/LKM_05_Regresi_Linear.ipynb' ],
+                      ['Form Pengumpulan :', '']
+                  ],
+              },
+              ],
       },
       {
         n: '6', minggu: 'Minggu 6', tanggal: '5 – 11 Okt',
