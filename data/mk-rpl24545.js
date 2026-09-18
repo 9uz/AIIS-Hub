@@ -156,7 +156,7 @@ jadwal: [
                   judul: 'Tugas Mandiri', konsep: 'Penerapan Siklus Machine Learning Dataset_UCI',
                   materi: [
                       ['Tugas Praktikum 3', 'dokumen/Tugas_3_Penerapan_Dataset_UCI.ipynb' ],
-                      ['Form Pengumpulan :', '']
+                      ['Form Pengumpulan :', 'https://forms.gle/FCJ3CwijKco7DcwA6']
                   ],
               },
               ],
