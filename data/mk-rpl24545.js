@@ -180,7 +180,7 @@ jadwal: [
                   materi: [
                       ['Tugas Praktikum 4', 'dokumen/LKM_04_Unsupervised_dan_Probabilitas.ipynb' ],
                       ['Dataset', "https://eecs189.org/fa25/resources/assets/lectures/lec04/speed_length_data.csv"],
-                      ['Form Pengumpulan :', '']
+                      ['Form Pengumpulan :', 'https://forms.gle/6z4QFWJk86z1Sfwx5']
                   ],
               },
               ],
