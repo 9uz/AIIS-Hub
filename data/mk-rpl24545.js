@@ -172,13 +172,14 @@ jadwal: [
               {
                   judul: 'Unsupervised Learning · Probabilitas · K-Means',
                   konsep: 'Unsupervised Learning · Probabilitas · K-Means',
-                  materi: [['Slide: Unsupervised Learnin ...','slides/004_Pembelajaran_Tak_Terawasi.pdf' ],
+                  materi: [['Slide: Unsupervised Learnin ...','slides/04_Pembelajaran_Tak_Terawasi.pdf' ],
                       ['Modul Belajar 4 KMeans_dan_Probabilitas', 'dokumen/Pertemuan04_KMeans_dan_Probabilitas.ipynb' ],],
               },
               {
                   judul: 'Tugas Mandiri', konsep: 'LKM_04_Unsupervised_dan_Probabilitas',
                   materi: [
                       ['Tugas Praktikum 4', 'dokumen/LKM_04_Unsupervised_dan_Probabilitas.ipynb' ],
+                      ['Dataset', "https://eecs189.org/fa25/resources/assets/lectures/lec04/speed_length_data.csv"],
                       ['Form Pengumpulan :', '']
                   ],
               },
@@ -202,6 +203,7 @@ jadwal: [
                   judul: 'Tugas Mandiri', konsep: '',
                   materi: [
                       ['Tugas Praktikum 5', 'dokumen/LKM_05_Regresi_Linear.ipynb' ],
+
                       ['Form Pengumpulan :', '']
                   ],
               },
