@@ -176,6 +176,12 @@ jadwal: [
                       ['Modul Belajar 4 KMeans_dan_Probabilitas', 'dokumen/Pertemuan04_KMeans_dan_Probabilitas.ipynb' ],],
               },
               {
+                  judul: 'Tugas Team Presentasi', konsep: 'Presentasi algoritma yanga ada',
+                  materi: [
+                      ['Aturan', 'dokumen/4.1.Algoritma_Machine_Learning.txt' ],
+                  ],
+              },
+              {
                   judul: 'Tugas Mandiri', konsep: 'LKM_04_Unsupervised_dan_Probabilitas',
                   materi: [
                       ['Tugas Praktikum 4', 'dokumen/LKM_04_Unsupervised_dan_Probabilitas.ipynb' ],
@@ -196,14 +202,15 @@ jadwal: [
               {
                   judul: 'Linear Regression · Fungsi basis · Vektorisasi',
                   konsep: 'Linear Regression · Fungsi basis · Vektorisasi · Error Function · Minimasi Error · Evaluasi Model',
-                  materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/05_Regresi_Linier_Formulasi_Dasar_dan_Minimasi_Error.pdf' ],
-                      ['Modul Belajar 5', 'dokumen/Pertemuan05_Regresi_Linear_1.ipynb' ],],
+                  materi: [
+                      ['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/05_Regresi_Linier_Formulasi_Dasar_dan_Minimasi_Error.pdf' ],
+                      ['Modul Belajar 5', 'dokumen/Pertemuan05_Regresi_Linear_1.ipynb' ],
+                  ],
               },
               {
                   judul: 'Tugas Mandiri', konsep: '',
                   materi: [
                       ['Tugas Praktikum 5', 'dokumen/LKM_05_Regresi_Linear.ipynb' ],
-
                       ['Form Pengumpulan :', '']
                   ],
               },

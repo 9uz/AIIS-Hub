@@ -1,0 +1,39 @@
+    1 Linear Regression
+    2. Polynomial Regression
+    3. Ridge Regression
+    4. Lasso Regression
+    5. Elastic Net Regression
+    6. Logistic Regression
+    7. Decision Tree
+    8. Random Forest
+    9. Extra Trees
+    10. Gradient Boosting
+    11. XGBoost
+    12. LightGBM
+    13. CatBoost
+    14. AdaBoost
+    Support Vector Machine (SVM)
+    Support Vector Regression (SVR)
+    K-Nearest Neighbors (KNN)
+    Naive Bayes
+    Gaussian Naive Bayes
+    Multinomial Naive Bayes
+    Bernoulli Naive Bayes
+    Linear Discriminant Analysis (LDA)
+    Quadratic Discriminant Analysis (QDA)
+    Perceptron
+    Artificial Neural Network (ANN)
+    Multilayer Perceptron (MLP)
+    Gaussian Process Regression
+    Passive-Aggressive Algorithm
+
+
+
+
+Model Family / Architecture
+Inductive Biases / Assumptions (Asumsi Dasar):
+loss function
+Hyperparameter
+cara kerja
+kelebihan dan kekurangan
+
