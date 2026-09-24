@@ -144,15 +144,16 @@ window.MK.push({
                             judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
                             materi: [
                                 ['Modul: E-modul 4 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/kXDJd6Wo8BV5xxSPA']
                             ],
                         },
                         ],
                 },
-                { n: '5', minggu: 'Minggu 5', topik: 'Teknik Objek & Database', label: 'Sub-CPMK 5', bobot: '4%', catatan: 'Konfigurasi Koneksi DB, Konsep ORM vs SQL, Pembuatan Migration Tabel, dan Pembuatan Model Relasi[cite: 1]', media: 'Framework Backend, Modul 5[cite: 1]',
+                { n: '5', minggu: 'Minggu 5', topik: 'Teknik Objek & Database', label: 'Sub-CPMK 5', bobot: '4%',
+                    catatan: 'Konfigurasi Koneksi DB, Konsep ORM vs SQL, Pembuatan Migration Tabel, dan Pembuatan Model Relasi[cite: 1]', media: 'Framework Backend, Modul 5[cite: 1]',
                     agenda: [
                         {
-                            judul: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
+                            judul: 'Konfigurasi Koneksi DB, Konsep ORM vs SQL, Pembuatan Migration Tabel, dan Pembuatan Model Relasi',
                             konsep: 'Laravel sebagai Framework Backend',
                             materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','/slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
                         },
@@ -165,7 +166,8 @@ window.MK.push({
                         },
                     ],
                 },
-                { n: '6', minggu: 'Minggu 6', topik: 'Logika ORM Lanjutan (CRUD)', label: 'Sub-CPMK 2', bobot: '5%', catatan: 'Operasi Create, Read, Update, Delete, serta Filtering Data[cite: 1]', media: 'Framework Backend, Modul 6[cite: 1]' ,
+                { n: '6', minggu: 'Minggu 6', topik: 'Logika ORM Lanjutan (CRUD)', label: 'Sub-CPMK 2', bobot: '5%',
+                    catatan: 'Operasi Create, Read, Update, Delete, serta Filtering Data[cite: 1]', media: 'Framework Backend, Modul 6[cite: 1]' ,
                     agenda: [
                         {
                             judul: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
@@ -173,7 +175,8 @@ window.MK.push({
                             materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
                         },
                         {
-                            judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
+                            judul: 'Logika ORM Lanjutan (CRUD)a',
+                            konsep: 'Operasi Create, Read, Update, Delete, serta Filtering Data',
                             materi: [
                                 ['Modul: E-modul 6 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
                                 ['Pengumpulan Lembar Kerja','']
@@ -181,7 +184,8 @@ window.MK.push({
                         },
                     ],
                 },
-                { n: '7', minggu: 'Minggu 7', topik: 'Kode Terstruktur & Validasi', label: 'Sub-CPMK 3', bobot: '5%', catatan: 'Validasi Masukan Server-side, Penanganan Pesan Error, Standarisasi Clean Code, dan Komentar Dokumentasi[cite: 1]', media: 'Framework Backend, Modul 7[cite: 1]',
+                { n: '7', minggu: 'Minggu 7', topik: 'Kode Terstruktur & Validasi', label: 'Sub-CPMK 3',
+                    bobot: '5%', catatan: 'Validasi Masukan Server-side, Penanganan Pesan Error, Standarisasi Clean Code, dan Komentar Dokumentasi[cite: 1]', media: 'Framework Backend, Modul 7[cite: 1]',
                     agenda: [
                         {
                             judul: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
@@ -189,26 +193,177 @@ window.MK.push({
                             materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
                         },
                         {
-                            judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
+                            judul: 'Kode Terstruktur & Validasi',
+                            konsep: 'Validasi Masukan Server-side, Penanganan Pesan Error, Standarisasi Clean Code, dan Komentar Dokumentasi',
                             materi: [
                                 ['Modul: E-modul 7 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
                                 ['Pengumpulan Lembar Kerja','']
                             ],
                         },
-                    ],},
+                    ],
+                },
                 { n: '8', minggu: 'Minggu 8', topik: 'Evaluasi Tengah Semester (UTS)', label: 'Minggu 1–7', bobot: '10%', catatan: 'Pengembangan Basis Aplikasi Web MVC Terintegrasi Database[cite: 1]', jenis: 'ujian' },
             ]
         },
         {
             blok: 'Setelah Ujian Tengah Semester',
             pertemuan: [
-                { n: '9', minggu: 'Minggu 9', topik: 'REST API Dasar', label: 'Sub-CPMK 3', bobot: '5%', catatan: 'Konsep Stateless & RESTful, Endpoint API, Respon JSON, dan Kode Status HTTP[cite: 1]', media: 'Framework Backend, Modul 9[cite: 1]' },
-                { n: '10', minggu: 'Minggu 10', topik: 'Modul Pihak Ketiga & Ekosistem', label: 'Sub-CPMK 5', bobot: '4%', catatan: 'Instalasi via Composer, Integrasi Pustaka Controller, serta Ekspor PDF/Excel[cite: 1]', media: 'Framework Backend, Modul 10[cite: 1]' },
-                { n: '11', minggu: 'Minggu 11', topik: 'Pengujian API', label: 'Sub-CPMK 5', bobot: '4%', catatan: 'Instalasi Postman, Transmisi Data (POST/PUT), Body Payload, dan Pengujian Autentikasi[cite: 1]', media: 'Framework Backend, Modul 11[cite: 1]' },
-                { n: '12', minggu: 'Minggu 12', topik: 'Git Resolusi Konflik', label: 'Sub-CPMK 6', bobot: '4%', catatan: 'Simulasi Merge Conflict, Pesan Indikator Konflik, Resolusi Konflik di IDE, serta Code Review & Sinkronisasi[cite: 1]', media: 'Framework Backend, Modul 12[cite: 1]' },
-                { n: '13', minggu: 'Minggu 13', topik: 'Konfigurasi Lingkungan Server', label: 'Sub-CPMK 9', bobot: '3%', catatan: 'Modifikasi Variabel .env, Ekspor Basis Data SQL, Persiapan Kredensial Server, dan Audit Keamanan Minor[cite: 1]', media: 'Framework Backend, Modul 13[cite: 1]' },
-                { n: '14', minggu: 'Minggu 14', topik: 'Persiapan Deployment', label: 'Sub-CPMK 7', bobot: '4%', catatan: 'Optimalisasi Asset UI, Registrasi cPanel/PaaS, Pembuatan Database Remote, dan Strategi Pengunggahan[cite: 1]', media: 'Framework Backend, Modul 14[cite: 1]' },
-                { n: '15', minggu: 'Minggu 15', topik: 'Peluncuran Web (Deployment)', label: 'Sub-CPMK 8', bobot: '3%', catatan: 'Sinkronisasi Push to Deploy, Impor DB ke Server Remote, Penyesuaian Path Root, dan Uji Coba Domain Publik[cite: 1]', media: 'Framework Backend, Modul 15[cite: 1]' },
+                { n: '9', minggu: 'Minggu 9', topik: 'REST API Dasar', label: 'Sub-CPMK 3', bobot: '5%',
+                    catatan: 'Konsep Stateless & RESTful, Endpoint API, Respon JSON, dan Kode Status HTTP[cite: 1]',
+                    media: 'Framework Backend, Modul 9[cite: 1]',
+                    agenda: [
+                        {
+                            judul: 'Teknologi dan Tools\n' +
+                                'Authentication &\n' +
+                                'Authorization pada\n' +
+                                'Aplikasi Web ',
+                            konsep: '',
+                            materi: []
+                        },
+                        {
+                            judul: 'REST API Dasar',
+                            konsep: 'Konsep Stateless & RESTful, Endpoint API, Respon JSON, dan Kode Status HTTP',
+                            materi: [
+                                ['Modul: E-modul 9 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Pengumpulan Lembar Kerja','']
+                            ],
+                        },
+                    ],
+                },
+                { n: '10', minggu: 'Minggu 10', topik: 'Modul Pihak Ketiga & Ekosistem', label: 'Sub-CPMK 5', bobot: '4%',
+                    catatan: 'Instalasi via Composer, Integrasi Pustaka Controller, serta Ekspor PDF/Excel[cite: 1]',
+                    media: 'Framework Backend, Modul 10[cite: 1]',
+                    agenda: [
+                        {
+                            judul: 'mplementasi Keamanan\n' +
+                                'Aplikasi Web dengan Tools',
+                            konsep: '',
+                            materi: [
+
+                            ],
+                        },
+                        {
+                            judul: 'Modul Pihak Ketiga & Ekosistem',
+                            konsep: 'Integrasi Pustaka Controller, serta Ekspor PDF/Excel',
+                            materi: [
+                                ['Modul: E-modul  10 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Pengumpulan Lembar Kerja','']
+                            ],
+                        }
+                    ],
+                },
+                { n: '11', minggu: 'Minggu 11', topik: 'Pengujian API', label: 'Sub-CPMK 5', bobot: '4%',
+                    catatan: 'Instalasi Postman, Transmisi Data (POST/PUT), Body Payload, dan Pengujian Autentikasi[cite: 1]',
+                    media: 'Framework Backend, Modul 11[cite: 1]',
+                    agenda: [
+                        {
+                            judul: 'Kriteria Pemilihan Tools: \n',
+                            konsep: '',
+                            materi: [
+
+                            ],
+                        },
+                        {
+                            judul: 'Pengujian API',
+                            konsep: 'Instalasi Postman, Transmisi Data (POST/PUT), Body Payload, dan Pengujian Autentikasi',
+                            materi: [
+                                ['Modul: E-modul  11 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Pengumpulan Lembar Kerja','']
+                            ],
+                        }
+                    ],
+                },
+                { n: '12', minggu: 'Minggu 12', topik: 'Git Resolusi Konflik', label: 'Sub-CPMK 6',
+                    bobot: '4%',
+                    catatan: 'Simulasi Merge Conflict, Pesan Indikator Konflik, Resolusi Konflik di IDE, serta Code Review & Sinkronisasi[cite: 1]',
+                    media: 'Framework Backend, Modul 12[cite: 1]',
+                    agenda: [
+                        {
+                            judul: 'mplementasi REST API\n' +
+                                'dengan Laravel dan Tools\n' +
+                                'API:',
+                            konsep: '',
+                            materi: [
+
+                            ],
+                        },
+                        {
+                            judul: 'Git Resolusi Konflik',
+                            konsep: 'Simulasi Merge Conflict, Pesan Indikator Konflik, Resolusi Konflik di IDE, serta Code Review & Sinkronisasi',
+                            materi: [
+                                ['Modul: E-modul  12 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Pengumpulan Lembar Kerja','']
+                            ],
+                        }
+                    ],
+
+                },
+                { n: '13', minggu: 'Minggu 13', topik: 'Konfigurasi Lingkungan Server', label: 'Sub-CPMK 9', bobot: '3%',
+                    catatan: 'Modifikasi Variabel .env, Ekspor Basis Data SQL, Persiapan Kredensial Server, dan Audit Keamanan Minor[cite: 1]',
+                    media: 'Framework Backend, Modul 13[cite: 1]',
+                    agenda: [
+                        {
+                            judul: 'Implementasi Perangkat Lunak Web:  ',
+                            konsep: '',
+                            materi: [
+
+                            ],
+                        },
+                        {
+                            judul: 'Git Resolusi Konflik',
+                            konsep: 'Simulasi Merge Conflict, Pesan Indikator Konflik, Resolusi Konflik di IDE, serta Code Review & Sinkronisasi',
+                            materi: [
+                                ['Modul: E-modul  13 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Pengumpulan Lembar Kerja','']
+                            ],
+                        }
+                    ],
+                },
+                { n: '14', minggu: 'Minggu 14', topik: 'Persiapan Deployment', label: 'Sub-CPMK 7', bobot: '4%',
+                    catatan: 'Optimalisasi Asset UI, Registrasi cPanel/PaaS, Pembuatan Database Remote, dan Strategi Pengunggahan[cite: 1]',
+                    media: 'Framework Backend, Modul 14[cite: 1]',
+                    agenda: [
+                        {
+                            judul: 'Deployment dan Risiko\n' +
+                                'Implementasi Aplikasi\n' +
+                                'Web:   ',
+                            konsep: '',
+                            materi: [
+
+                            ],
+                        },
+                        {
+                            judul: 'Persiapan Deployment',
+                            konsep: 'Optimalisasi Asset UI, Registrasi cPanel/PaaS, Pembuatan Database Remote, dan Strategi Pengunggahan',
+                            materi: [
+                                ['Modul: E-modul  14 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Pengumpulan Lembar Kerja','']
+                            ],
+                        }
+                    ],},
+                { n: '15', minggu: 'Minggu 15', topik: 'Peluncuran Web (Deployment)', label: 'Sub-CPMK 8', bobot: '3%', catatan: 'Sinkronisasi Push to Deploy, Impor DB ke Server Remote, Penyesuaian Path Root, dan Uji Coba Domain Publik[cite: 1]',
+                    media: 'Framework Backend, Modul 15[cite: 1]',
+                    agenda: [
+                        {
+                            judul: 'Deployment dan Risiko ' +
+                                'Implementasi Aplikasi ' +
+                                'Web:  ',
+                            konsep: 'Deployment dan Risiko' +
+                                'Implementasi Aplikasi ' +
+                                'Web:  ',
+                            materi: [
+
+                            ],
+                        },
+                        {
+                            judul: 'Peluncuran Web (Deployment)',
+                            konsep: 'Sinkronisasi Push to Deploy, Impor DB ke Server Remote, Penyesuaian Path Root, dan Uji Coba Domain Publik',
+                            materi: [
+                                ['Modul: E-modul  15 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
+                                ['Pengumpulan Lembar Kerja','']
+                            ],
+                        }
+                    ],},
                 { n: '16', minggu: 'Minggu 16', topik: 'Evaluasi Akhir Semester (UAS)', label: 'Minggu 1–15', bobot: '30%', catatan: 'Showcase Proyek Akhir: Presentasi Sistem Sesuai Tema Proyek Berkelanjutan PjBL[cite: 1]', jenis: 'ujian' },
             ]
         },
