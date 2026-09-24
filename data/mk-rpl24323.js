@@ -84,7 +84,7 @@ window.MK.push({
                     agenda: [
                         {
                             judul: 'Kontrak perkuliahan,', konsep: '',
-                            materi: [['Slide: Pengantar dan Kontrak perkuliahan','slides/1.Pengantar_perkuliahan_v2.pdf' ]],
+                            materi: [['Slide: Pengantar dan Kontrak perkuliahan','/slides/1.Pengantar_perkuliahan_v2.pdf' ]],
                         },
                         {
                             judul: 'Persiapan Lingkungan Kerja dan Praktikum', konsep: 'Persiapan Lingkungan Kerja dan Praktikum',
@@ -105,7 +105,7 @@ window.MK.push({
                                 '3. Arsitektur MVC\n' +
                                 '4. Komponen Model,View, Controller\n' +
                                 '5. Alur pengembangan aplikasi berbasis MVC',
-                        materi: [['Slide : 2. Arsitektur_Aplikasi_Revisi','slides/2.Arsitektur_Aplikasi_Revisi.pdf' ]]
+                        materi: [['Slide : 2. Arsitektur_Aplikasi_Revisi','/slides/2.Arsitektur_Aplikasi_Revisi.pdf' ]]
                         },
                         {
                             judul: 'Version Control System & Inisiasi PjBL', konsep: 'Version Control System & Inisiasi PjBL',
@@ -121,7 +121,7 @@ window.MK.push({
                         {
                             judul: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
                             konsep: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
-                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','slides/3.Framework_Backend_dan_Pemilihan_Pendekatan.pdf' ]]
+                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','/slides/3.Framework_Backend_dan_Pemilihan_Pendekatan.pdf' ]]
                         },
                         {
                             judul: 'Pemrograman Dasar MVC', konsep: 'Pemrograman Dasar MVC',
@@ -138,7 +138,7 @@ window.MK.push({
                         {
                             judul: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
                             konsep: 'Laravel sebagai Framework Backend',
-                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
+                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','/slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
                         },
                         {
                             judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
@@ -154,7 +154,7 @@ window.MK.push({
                         {
                             judul: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
                             konsep: 'Laravel sebagai Framework Backend',
-                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
+                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','/slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
                         },
                         {
                             judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
