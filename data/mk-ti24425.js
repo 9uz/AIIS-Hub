@@ -137,7 +137,7 @@ window.MK.push({
 		agenda: [
             {
               judul: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi', konsep: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi',
-              materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P05_Regularisasi_MLE_Bias_Variance.pptx' ]],
+              materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P05_Regularisasi_MLE_Bias_Variance.pdf' ]],
             },
             {
               judul: 'Tugas 2', konsep: 'Diagnosis_Bias_Variance',
@@ -151,7 +151,7 @@ window.MK.push({
             agenda: [
                 {
                     judul: 'Klasifikasi Linier: Logistic Regression', konsep: 'Klasifikasi Linier: Logistic Regression',
-                    materi: [['Slide: Klasifikasi Linier: Logistic Regression','slides/P06_Logistic_Regression.pptx' ]],
+                    materi: [['Slide: Klasifikasi Linier: Logistic Regression','slides/P06_Logistic_Regression.pdf' ]],
                 },
                 {
                     judul: 'Latihan 2', konsep: 'Logistic_Regression',
