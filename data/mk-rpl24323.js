@@ -153,12 +153,12 @@ window.MK.push({
                     catatan: 'Konfigurasi Koneksi DB, Konsep ORM vs SQL, Pembuatan Migration Tabel, dan Pembuatan Model Relasi[cite: 1]', media: 'Framework Backend, Modul 5[cite: 1]',
                     agenda: [
                         {
-                            judul: 'Konfigurasi Koneksi DB, Konsep ORM vs SQL, Pembuatan Migration Tabel, dan Pembuatan Model Relasi',
-                            konsep: 'Laravel sebagai Framework Backend',
-                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','/slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
+                            judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
+                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','/slides/5.Controller_dan_Implementasi_Logika_Aplikasi.pdf' ]]
                         },
                         {
-                            judul: 'Struktur Kontrol & Antarmuka', konsep: 'Struktur Kontrol & Antarmuka',
+                            judul: 'Konfigurasi Koneksi DB, Konsep ORM vs SQL, Pembuatan Migration Tabel, dan Pembuatan Model Relasi',
+                            konsep: '',
                             materi: [
                                 ['Modul: E-modul 5 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
                                 ['Pengumpulan Lembar Kerja','']
