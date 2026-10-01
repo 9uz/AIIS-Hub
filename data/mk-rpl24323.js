@@ -167,12 +167,12 @@ window.MK.push({
                     ],
                 },
                 { n: '6', minggu: 'Minggu 6', topik: 'Logika ORM Lanjutan (CRUD)', label: 'Sub-CPMK 2', bobot: '5%',
-                    catatan: 'Operasi Create, Read, Update, Delete, serta Filtering Data[cite: 1]', media: 'Framework Backend, Modul 6[cite: 1]' ,
+                    catatan: 'Operasi Create, Read, Update, Delete, serta Filtering Data', media: 'Framework Backend, Modul 6[cite: 1]' ,
                     agenda: [
                         {
-                            judul: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
-                            konsep: 'Laravel sebagai Framework Backend',
-                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
+                            judul: 'Operasi Create, Read, Update, Delete, serta Filtering Data',
+                            konsep: 'Operasi Create, Read, Update, Delete, serta Filtering Data',
+                            materi: [['Slide :Database','/slides/6.Database_Laravel.pptx' ]]
                         },
                         {
                             judul: 'Logika ORM Lanjutan (CRUD)a',
@@ -188,12 +188,12 @@ window.MK.push({
                     bobot: '5%', catatan: 'Validasi Masukan Server-side, Penanganan Pesan Error, Standarisasi Clean Code, dan Komentar Dokumentasi[cite: 1]', media: 'Framework Backend, Modul 7[cite: 1]',
                     agenda: [
                         {
-                            judul: 'Framework Backend dan Pemilihan Pendekatan Pengembangan',
-                            konsep: 'Laravel sebagai Framework Backend',
-                            materi: [['Slide :Framework Backend dan Pemilihan Pendekatan Pengembangan','slides/4.Laravel_sebagai_Framework_Backend.pdf' ]]
+                            judul: 'ORM_dan_Pengelolaan_Data_Laravel',
+                            konsep: '',
+                            materi: [['Slide :ORM_dan_Pengelolaan_Data_Laravel','/slides/7.ORM_dan_Pengelolaan_Data_Laravel.pptx' ]]
                         },
                         {
-                            judul: 'Kode Terstruktur & Validasi',
+                            judul: 'Kode Terstruktur & Validasi Masukan',
                             konsep: 'Validasi Masukan Server-side, Penanganan Pesan Error, Standarisasi Clean Code, dan Komentar Dokumentasi',
                             materi: [
                                 ['Modul: E-modul 7 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
@@ -210,18 +210,18 @@ window.MK.push({
             pertemuan: [
                 { n: '9', minggu: 'Minggu 9', topik: 'REST API Dasar', label: 'Sub-CPMK 3', bobot: '5%',
                     catatan: 'Konsep Stateless & RESTful, Endpoint API, Respon JSON, dan Kode Status HTTP[cite: 1]',
-                    media: 'Framework Backend, Modul 9[cite: 1]',
+                    media: 'Framework Backend, Modul 9',
                     agenda: [
                         {
-                            judul: 'Teknologi dan Tools\n' +
-                                'Authentication &\n' +
-                                'Authorization pada\n' +
-                                'Aplikasi Web ',
+                            judul: 'Teknologi dan Tools Authentication Authorization pada Aplikasi Web ',
                             konsep: '',
-                            materi: []
+                            materi: [
+                                ['Slide : Authentication_dan_Authorization', '/slides/9.1.Authentication_dan_Authorization.pptx'],
+                                ['Slide : API', '/slides/9.API.pptx'],
+                       ]
                         },
                         {
-                            judul: 'REST API Dasar',
+                            judul: 'Layanan REST API Dasar',
                             konsep: 'Konsep Stateless & RESTful, Endpoint API, Respon JSON, dan Kode Status HTTP',
                             materi: [
                                 ['Modul: E-modul 9 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
@@ -231,15 +231,14 @@ window.MK.push({
                     ],
                 },
                 { n: '10', minggu: 'Minggu 10', topik: 'Modul Pihak Ketiga & Ekosistem', label: 'Sub-CPMK 5', bobot: '4%',
-                    catatan: 'Instalasi via Composer, Integrasi Pustaka Controller, serta Ekspor PDF/Excel[cite: 1]',
+                    catatan: 'Instalasi via Composer, Integrasi Pustaka Controller, serta Ekspor PDF/Excel',
                     media: 'Framework Backend, Modul 10[cite: 1]',
                     agenda: [
                         {
-                            judul: 'mplementasi Keamanan\n' +
-                                'Aplikasi Web dengan Tools',
+                            judul: 'Implementasi Keamanan Aplikasi Web dengan Tools',
                             konsep: '',
                             materi: [
-
+                                ['Slide : Implementasi Keamanan', '/slides/10.Implementasi_Keamanan_Aplikasi_Web.pptx']
                             ],
                         },
                         {
@@ -253,18 +252,18 @@ window.MK.push({
                     ],
                 },
                 { n: '11', minggu: 'Minggu 11', topik: 'Pengujian API', label: 'Sub-CPMK 5', bobot: '4%',
-                    catatan: 'Instalasi Postman, Transmisi Data (POST/PUT), Body Payload, dan Pengujian Autentikasi[cite: 1]',
+                    catatan: 'Instalasi Postman, Transmisi Data (POST/PUT), Body Payload, dan Pengujian Autentikasi',
                     media: 'Framework Backend, Modul 11[cite: 1]',
                     agenda: [
                         {
                             judul: 'Kriteria Pemilihan Tools: \n',
                             konsep: '',
                             materi: [
-
+                                ['Slide : Kriteria Pemilihan Tools', '/slides/11.REST_API_dan_Kriteria_Pemilihan_Tools.pptx']
                             ],
                         },
                         {
-                            judul: 'Pengujian API',
+                            judul: 'Pengujian API menggunakan Tools',
                             konsep: 'Instalasi Postman, Transmisi Data (POST/PUT), Body Payload, dan Pengujian Autentikasi',
                             materi: [
                                 ['Modul: E-modul  11 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
@@ -279,12 +278,10 @@ window.MK.push({
                     media: 'Framework Backend, Modul 12[cite: 1]',
                     agenda: [
                         {
-                            judul: 'mplementasi REST API\n' +
-                                'dengan Laravel dan Tools\n' +
-                                'API:',
+                            judul: 'Implementasi REST API dengan Laravel dan Tools API',
                             konsep: '',
                             materi: [
-
+                                    [ 'Slide : Implementasi REST API ', '/slides/12.Implementasi_REST_API_dengan_Laravel.pptx']
                             ],
                         },
                         {
@@ -299,19 +296,19 @@ window.MK.push({
 
                 },
                 { n: '13', minggu: 'Minggu 13', topik: 'Konfigurasi Lingkungan Server', label: 'Sub-CPMK 9', bobot: '3%',
-                    catatan: 'Modifikasi Variabel .env, Ekspor Basis Data SQL, Persiapan Kredensial Server, dan Audit Keamanan Minor[cite: 1]',
+                    catatan: 'Modifikasi Variabel .env, Ekspor Basis Data SQL, Persiapan Kredensial Server, dan Audit Keamanan Minor',
                     media: 'Framework Backend, Modul 13[cite: 1]',
                     agenda: [
                         {
                             judul: 'Implementasi Perangkat Lunak Web:  ',
                             konsep: '',
                             materi: [
-
+                                [ 'Slide : Implementasi Perangkat ', '/slides/13.Implementasi_Perangkat_Lunak_Web.pptx']
                             ],
                         },
                         {
-                            judul: 'Git Resolusi Konflik',
-                            konsep: 'Simulasi Merge Conflict, Pesan Indikator Konflik, Resolusi Konflik di IDE, serta Code Review & Sinkronisasi',
+                            judul: 'Konfigurasi Lingkungan Server dan Persiapan Rilis',
+                            konsep: 'Modifikasi Variabel .env, Ekspor Basis Data SQL, Persiapan Kredensial Server, dan Audit Keamanan Minor',
                             materi: [
                                 ['Modul: E-modul  13 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
                                 ['Pengumpulan Lembar Kerja','']
@@ -324,16 +321,15 @@ window.MK.push({
                     media: 'Framework Backend, Modul 14[cite: 1]',
                     agenda: [
                         {
-                            judul: 'Deployment dan Risiko\n' +
-                                'Implementasi Aplikasi\n' +
-                                'Web:   ',
+                            judul: 'Deployment dan Risiko Implementasi Aplikasi Web:   ',
                             konsep: '',
                             materi: [
+                                [ 'Slide : \'Deployment dan Risiko Implementasi ', '/slides/14.Deployment_dan_Risiko_Implementasi.pptx']
 
                             ],
                         },
                         {
-                            judul: 'Persiapan Deployment',
+                            judul: 'Strategi Persiapan Deployment',
                             konsep: 'Optimalisasi Asset UI, Registrasi cPanel/PaaS, Pembuatan Database Remote, dan Strategi Pengunggahan',
                             materi: [
                                 ['Modul: E-modul  14 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
@@ -345,13 +341,10 @@ window.MK.push({
                     media: 'Framework Backend, Modul 15[cite: 1]',
                     agenda: [
                         {
-                            judul: 'Deployment dan Risiko ' +
-                                'Implementasi Aplikasi ' +
-                                'Web:  ',
-                            konsep: 'Deployment dan Risiko' +
-                                'Implementasi Aplikasi ' +
-                                'Web:  ',
+                            judul: 'Optimasi_dan_Integrasi_Solusi:  ',
+                            konsep: 'Optimasi_dan_Integrasi_Solusi:  ',
                             materi: [
+                                [ 'Slide : Optimasi_dan_Integrasi_Solusi ', '/slides/15.Optimasi_dan_Integrasi_Solusi_Web.pptx']
 
                             ],
                         },
