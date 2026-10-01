@@ -203,7 +203,7 @@ jadwal: [
                   judul: 'Linear Regression · Fungsi basis · Vektorisasi',
                   konsep: 'Linear Regression · Fungsi basis · Vektorisasi · Error Function · Minimasi Error · Evaluasi Model',
                   materi: [
-                      ['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/05_Regresi_Linier_Formulasi_Dasar_dan_Minimasi_Error.pdf' ],
+                      ['Slide: Regresi_Linier_Formulasi_Dasar_dan_Minimasi','slides/05_Regresi_Linier_Formulasi_Dasar_dan_Minimasi_Error.pdf' ],
                       ['Modul Belajar 5', 'dokumen/Pertemuan05_Regresi_Linear_1.ipynb' ],
                   ],
               },
@@ -233,7 +233,7 @@ jadwal: [
           //     {
           //         judul: 'Tugas Mandiri', konsep: '',
           //         materi: [
-          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+          //             ['Tugas Praktikum 6', 'dokumen/tugas2.ipynb' ],
           //             ['Form Pengumpulan :', '']
           //         ],
           //     },
