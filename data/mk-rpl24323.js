@@ -161,7 +161,7 @@ window.MK.push({
                             konsep: '',
                             materi: [
                                 ['Modul: E-modul 5 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/jSLYNzsp7zbu4NXVA']
                             ],
                         },
                     ],
