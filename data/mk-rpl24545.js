@@ -211,7 +211,7 @@ jadwal: [
                   judul: 'Tugas Mandiri', konsep: '',
                   materi: [
                       ['Tugas Praktikum 5', 'dokumen/LKM_05_Regresi_Linear.ipynb' ],
-                      ['Form Pengumpulan :', '']
+                      ['Form Pengumpulan :', 'https://forms.gle/gHxEHzTkpkKALY419']
                   ],
               },
               ],
@@ -236,7 +236,7 @@ jadwal: [
                   judul: 'Tugas Mandiri', konsep: '',
                   materi: [
                       ['Tugas Praktikum 6', 'dokumen/LKM_06.ipynb' ],
-                      ['Form Pengumpulan :', '']
+                      ['Form Pengumpulan :', 'https://forms.gle/SMV3dW3zuQYNZnxEA']
                   ],
               },
               ],
@@ -260,7 +260,7 @@ jadwal: [
                   judul: 'Tugas Mandiri', konsep: '',
                   materi: [
                       ['Tugas Praktikum 7', 'dokumen/LKM_07.ipynb' ],
-                      ['Form Pengumpulan :', '']
+                      ['Form Pengumpulan :', 'https://forms.gle/RiWwssfyDEtQiERi8']
                   ],
               },
               ],
