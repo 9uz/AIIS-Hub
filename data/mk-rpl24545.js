@@ -223,21 +223,23 @@ jadwal: [
         bobot: '5%',
         warna: '2F6B8A',
         catatan: 'Regularized Least Squares · Ridge · Lasso · Normal Equation · Perbandingan OLS dan Regularisasi',
-          // agenda: [
-          //     {
-          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
-          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
-          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
-          //     },
-          //     {
-          //         judul: 'Tugas Mandiri', konsep: '',
-          //         materi: [
-          //             ['Tugas Praktikum 6', 'dokumen/tugas2.ipynb' ],
-          //             ['Form Pengumpulan :', '']
-          //         ],
-          //     },
-          //     ],
+          agenda: [
+              {
+                  judul: 'Regularized Least Squares · Ridge · Lasso · Normal Equation',
+                  konsep: 'Regularized Least Squares · Ridge · Lasso · Normal Equation',
+                  materi: [
+                      ['Slide: Regresi_Linier_2_Regularisasi ...',
+                          'slides/06_Regresi_Linier_2_Regularisasi.pdf' ],
+                      ['Modul Belajar 6', 'dokumen/Pertemuan06_Regresi_Linear_2.ipynb' ],],
+              },
+              {
+                  judul: 'Tugas Mandiri', konsep: '',
+                  materi: [
+                      ['Tugas Praktikum 6', 'dokumen/LKM_06.ipynb' ],
+                      ['Form Pengumpulan :', '']
+                  ],
+              },
+              ],
       },
       {
         n: '7',  minggu: 'Minggu 7',
@@ -246,21 +248,22 @@ jadwal: [
         bobot: '5%',
         warna: '2F6B8A',
         catatan: 'Maximum Likelihood Estimation · Prior Beliefs · Distribusi Noise · Bias-Variance Trade-off',
-          // agenda: [
-          //     {
-          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
-          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
-          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
-          //     },
-          //     {
-          //         judul: 'Tugas Mandiri', konsep: '',
-          //         materi: [
-          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
-          //             ['Form Pengumpulan :', '']
-          //         ],
-          //     },
-          //     ],
+          agenda: [
+              {
+                  judul: 'MLE dan Bias-Variance Trade-off',
+                  konsep: 'Maximum Likelihood Estimation · Prior Beliefs · Distribusi Noise · Bias-Variance Trade-off',
+                  materi: [['Slide: MLE dan Bias-Variance Trade-off ...',
+                      'slides/07_MLE_dan_Bias_Variance_Trade_off.pdf' ],
+                      ['Modul Belajar 7', 'Pertemuan07_Regresi_Linear_3_Probabilistik.ipynb' ],],
+              },
+              {
+                  judul: 'Tugas Mandiri', konsep: '',
+                  materi: [
+                      ['Tugas Praktikum 7', 'dokumen/LKM_07.ipynb' ],
+                      ['Form Pengumpulan :', '']
+                  ],
+              },
+              ],
       },
       {
         n: '8',  minggu: 'Minggu 8',
