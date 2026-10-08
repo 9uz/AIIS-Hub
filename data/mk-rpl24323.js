@@ -179,7 +179,7 @@ window.MK.push({
                             konsep: 'Operasi Create, Read, Update, Delete, serta Filtering Data',
                             materi: [
                                 ['Modul: E-modul 6 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/tGyyqhedFnhQTi7a7']
                             ],
                         },
                     ],
