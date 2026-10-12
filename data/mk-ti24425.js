@@ -133,16 +133,17 @@ window.MK.push({
                 },
             ],
             berkas: 'slides/P04_Regresi_Linier_dan_Gradient_Descent.pptx' },
-        { n: '5',minggu: 'Minggu 5', tanggal: '28 Sep – 4 Okt', topik: 'Regularisasi, MLE, dan Bias-Variance Trade-off', label: 'Sub-CPMK 5', bobot: '8%', warna: 'B85042', catatan: 'Ridge, Lasso, underfitting, overfitting \u00b7 ',
+        { n: '5',minggu: 'Minggu 5', tanggal: '28 Sep – 4 Okt',
+            topik: 'Regularisasi, MLE, dan Bias-Variance Trade-off', label: 'Sub-CPMK 5', bobot: '8%', warna: 'B85042', catatan: 'Ridge, Lasso, underfitting, overfitting \u00b7 ',
 		agenda: [
             {
-              judul: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi', konsep: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi',
+              judul: 'Regularisasi, MLE, dan Bias-Variance Trade-off', konsep: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi',
               materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P05_Regularisasi_MLE_Bias_Variance.pdf' ]],
             },
             {
               judul: 'Tugas 2', konsep: 'Diagnosis_Bias_Variance',
               materi: [['Tugas 2: Diagnosis_Bias_Variance', 'dokumen/TT2_Diagnosis_Bias_Variance.ipynb'],
-              ['Form Pengumpulan Tugas 2','']],
+              ['Form Pengumpulan Tugas 2','https://forms.gle/P4GPRM3EnJ9xHyg4A']],
             },
           ],
 		},
@@ -168,7 +169,7 @@ window.MK.push({
             {
               judul: 'Tugas 3', konsep: 'Metrik_Evaluasi_dan_Ambang_Batas',
               materi: [['Tugas 3 : Metrik_Evaluasi_dan_Ambang_Batas', 'dokumen/TT3_Metrik_Evaluasi_dan_Ambang_Batas.ipynb'],
-              ['Form Pengumpulan Tugas 3','']],
+              ['Form Pengumpulan Tugas 3','https://forms.gle/DPvX9PdFc6TjZ1s59']],
             },
           ],
 		},
