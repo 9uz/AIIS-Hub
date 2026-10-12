@@ -164,7 +164,7 @@ window.MK.push({
 		agenda: [
             {
               judul: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi', konsep: 'Klasifikasi Multi-Kelas dan Metrik Evaluasi',
-              materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P07_MultiKelas_dan_Metrik_Evaluasi.pptx' ]],
+              materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P07_MultiKelas_dan_Metrik_Evaluasi.pdf' ]],
             },
             {
               judul: 'Tugas 3', konsep: 'Metrik_Evaluasi_dan_Ambang_Batas',
