@@ -172,7 +172,7 @@ window.MK.push({
                         {
                             judul: 'Operasi Create, Read, Update, Delete, serta Filtering Data',
                             konsep: 'Operasi Create, Read, Update, Delete, serta Filtering Data',
-                            materi: [['Slide :Database','/slides/6.Database_Laravel.pptx' ]]
+                            materi: [['Slide :Database','/slides/6.Database_Laravel.pdf' ]]
                         },
                         {
                             judul: 'Logika ORM Lanjutan (CRUD)a',
@@ -190,14 +190,14 @@ window.MK.push({
                         {
                             judul: 'ORM_dan_Pengelolaan_Data_Laravel',
                             konsep: '',
-                            materi: [['Slide :ORM_dan_Pengelolaan_Data_Laravel','/slides/7.ORM_dan_Pengelolaan_Data_Laravel.pptx' ]]
+                            materi: [['Slide :ORM_dan_Pengelolaan_Data_Laravel','/slides/7.ORM_dan_Pengelolaan_Data_Laravel.pdf' ]]
                         },
                         {
                             judul: 'Kode Terstruktur & Validasi Masukan',
                             konsep: 'Validasi Masukan Server-side, Penanganan Pesan Error, Standarisasi Clean Code, dan Komentar Dokumentasi',
                             materi: [
                                 ['Modul: E-modul 7 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/i7zHCVdz4Cipn3Fq8']
                             ],
                         },
                     ],
