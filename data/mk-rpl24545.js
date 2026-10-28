@@ -286,21 +286,21 @@ jadwal: [
         bobot: '5%',
         warna: '2F6B8A',
         catatan: 'Klasifikasi linier · Fungsi sigmoid · Model probabilistik · Regularisasi · Optimisasi',
-          // agenda: [
-          //     {
-          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
-          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
-          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
-          //     },
-          //     {
-          //         judul: 'Tugas Mandiri', konsep: '',
-          //         materi: [
-          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
-          //             ['Form Pengumpulan :', '']
-          //         ],
-          //     },
-          //     ],
+          agenda: [
+              {
+                  judul: 'Klasifikasi linier · Fungsi sigmoid · Model probabilistik · Regularisasi · Optimisasi\'',
+                  konsep: 'Klasifikasi linier · Fungsi sigmoid · Model probabilistik · Regularisasi · Optimisasi\'',
+                  materi: [['Slide: Klasifikasi linier ·.....','slides/09_Regresi_Logistik_(1)_Klasifikasi_Linier.pdf' ],
+                     ],
+              },
+              {
+                  judul: 'Tugas Mandiri', konsep: 'Image Classification with RAPIDS based Random Forest',
+                  materi: [
+                      ['Tugas Praktikum 9', 'dokumen/Module-14-Lab-rapids-random-forest.pdf' ],
+                      ['Form Pengumpulan :', 'https://forms.gle/7LrBx1GaV34Fs13Z6']
+                  ],
+              },
+              ],
       },
       {
         n: '10',  minggu: 'Minggu 10',
