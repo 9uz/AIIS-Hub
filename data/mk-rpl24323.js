@@ -216,8 +216,8 @@ window.MK.push({
                             judul: 'Teknologi dan Tools Authentication Authorization pada Aplikasi Web ',
                             konsep: '',
                             materi: [
-                                ['Slide : Authentication_dan_Authorization', '/slides/9.1.Authentication_dan_Authorization.pptx'],
-                                ['Slide : API', '/slides/9.API.pptx'],
+                                ['Slide : Authentication_dan_Authorization', '/slides/9.1.Authentication_dan_Authorization.pdf'],
+                                ['Slide : API', '/slides/9.API.pdf'],
                        ]
                         },
                         {
@@ -225,7 +225,7 @@ window.MK.push({
                             konsep: 'Konsep Stateless & RESTful, Endpoint API, Respon JSON, dan Kode Status HTTP',
                             materi: [
                                 ['Modul: E-modul 9 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/myA63ovCPCFXmaZj8']
                             ],
                         },
                     ],
