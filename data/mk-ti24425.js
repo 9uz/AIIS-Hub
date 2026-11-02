@@ -200,11 +200,12 @@ window.MK.push({
             },
 			{
               judul: 'Presentasi Kilat sesi 1', konsep: 'Presentasi Kilat sesi 1',
+                materi : [['Tugas Pembagian Materi','Lihat Ppt']]
             },
             {
               judul: 'Tugas 4', konsep: 'Linier_versus_Pohon',
               materi: [['Tugas 4 : Linier_versus_Pohon', 'dokumen/TT4_Linier_versus_Pohon.ipynb'],
-              ['Form Pengumpulan Tugas 4','']],
+              ['Form Pengumpulan Tugas 4','https://forms.gle/J6oksHYEwG9rgP5r9']],
             },
           ],},
         { n: '11',minggu: 'Minggu 11', tanggal: '9 – 15 Nov', topik: 'Clustering dan Dasar Probabilitas', label: 'Sub-CPMK 10', bobot: '5%', warna: '22252B', catatan: 'K-Means, elbow, silhouette, probabilitas bersyarat',
