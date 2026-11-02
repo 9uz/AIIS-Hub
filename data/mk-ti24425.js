@@ -184,11 +184,11 @@ window.MK.push({
             agenda: [
                 {
                     judul: 'Validasi Model dan Tuning Hyperparameter', konsep: 'Validasi Model dan Tuning Hyperparameter',
-                    // materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P09_Validasi_dan_Tuning_Hyperparameter.pdf' ]],
+                    materi: [['Slide: Klasifikasi Multi-Kelas ...','slides/P09_Validasi_dan_Tuning_Hyperparameter.pdf' ]],
                 },
                 {
                     judul: 'Latihan 3', konsep: 'Validasi_dan_Audit_Prosedur',
-                    // materi: [['Latihan 3 ', 'dokumen/LF09_Validasi_dan_Audit_Prosedur.ipynb']],
+                    materi: [['Latihan 3 ', 'dokumen/LF09_Validasi_dan_Audit_Prosedur.ipynb']],
                 },
             ],
             berkas: 'slides/P09_Validasi_dan_Tuning_Hyperparameter.pptx' },
