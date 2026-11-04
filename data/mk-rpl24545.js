@@ -309,21 +309,23 @@ jadwal: [
         bobot: '5%',
         warna: '2F6B8A',
         catatan: 'Multi-Class Classification · Confusion Matrix · ROC · F1-Score · Evaluasi performa',
-          // agenda: [
-          //     {
-          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
-          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
-          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
-          //     },
-          //     {
-          //         judul: 'Tugas Mandiri', konsep: '',
-          //         materi: [
-          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
-          //             ['Form Pengumpulan :', '']
-          //         ],
-          //     },
-          //     ],
+          agenda: [
+              {
+                  judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+                  konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+                  materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+                      ],
+              },
+              {
+                  judul: 'Tugas PBL',
+                  konsep: 'Mahasiswa memiliki masalah yang jelas, dataset yang layak, dan rumusan Target–Objective–Data.',
+                  materi: [
+                      ['#TO DO','dokumen/09_minggu9.md' ],
+                      ['LAMPIRAN B. FORMULIR PENGAJUAN IDE','dokumen/09_LAMPIRAN_B.md']
+                  ]
+
+              },
+              ],
       },
       {
         n: '11', minggu: 'Minggu 11',
