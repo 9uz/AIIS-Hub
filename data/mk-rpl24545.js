@@ -321,7 +321,8 @@ jadwal: [
                   konsep: 'Mahasiswa memiliki masalah yang jelas, dataset yang layak, dan rumusan Target–Objective–Data.',
                   materi: [
                       ['#TO DO','dokumen/09_minggu9.md' ],
-                      ['LAMPIRAN B. FORMULIR PENGAJUAN IDE','dokumen/09_LAMPIRAN_B.md']
+                      ['LAMPIRAN B. FORMULIR PENGAJUAN IDE','dokumen/09_LAMPIRAN_B.md'],
+                      ['Form Pengumpulan ide',"https://forms.gle/nGPugjVzbFFtighc7"]
                   ]
 
               },
