@@ -246,7 +246,7 @@ window.MK.push({
                             konsep: 'Integrasi Pustaka Controller, serta Ekspor PDF/Excel',
                             materi: [
                                 ['Modul: E-modul  10 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/FpPFBUrYEsKst4TB7']
                             ],
                         }
                     ],
