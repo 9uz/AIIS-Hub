@@ -267,7 +267,7 @@ window.MK.push({
                             konsep: 'Instalasi Postman, Transmisi Data (POST/PUT), Body Payload, dan Pengujian Autentikasi',
                             materi: [
                                 ['Modul: E-modul  11 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/JokCA23hNBoFB6w2A']
                             ],
                         }
                     ],
@@ -289,7 +289,7 @@ window.MK.push({
                             konsep: 'Simulasi Merge Conflict, Pesan Indikator Konflik, Resolusi Konflik di IDE, serta Code Review & Sinkronisasi',
                             materi: [
                                 ['Modul: E-modul  12 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/8gJsgTnrgeeLqVuF9']
                             ],
                         }
                     ],
@@ -311,7 +311,7 @@ window.MK.push({
                             konsep: 'Modifikasi Variabel .env, Ekspor Basis Data SQL, Persiapan Kredensial Server, dan Audit Keamanan Minor',
                             materi: [
                                 ['Modul: E-modul  13 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/6qVcYdq8bRWLkm5w5']
                             ],
                         }
                     ],
@@ -333,7 +333,7 @@ window.MK.push({
                             konsep: 'Optimalisasi Asset UI, Registrasi cPanel/PaaS, Pembuatan Database Remote, dan Strategi Pengunggahan',
                             materi: [
                                 ['Modul: E-modul  14 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/Q9jpK5RgrTC3fgo38']
                             ],
                         }
                     ],},
@@ -353,7 +353,7 @@ window.MK.push({
                             konsep: 'Sinkronisasi Push to Deploy, Impor DB ke Server Remote, Penyesuaian Path Root, dan Uji Coba Domain Publik',
                             materi: [
                                 ['Modul: E-modul  15 ...','https://trplpnm.notion.site/emodul-ppbw2' ],
-                                ['Pengumpulan Lembar Kerja','']
+                                ['Pengumpulan Lembar Kerja','https://forms.gle/v9BakekfZvUCcsY29']
                             ],
                         }
                     ],},
