@@ -212,11 +212,11 @@ window.MK.push({
             agenda: [
                 {
                     judul: 'Clustering dan Dasar Probabilitas', konsep: 'Clustering dan Dasar Probabilitas',
-                    // materi: [['Slide: Clustering dan Dasar Probabilitas ...','slides/P11_Clustering_dan_Dasar_Probabilitas.pdf' ]],
+                    materi: [['Slide: Clustering dan Dasar Probabilitas ...','slides/P11_Clustering_dan_Dasar_Probabilitas.pdf' ]],
                 },
                 {
                     judul: 'Latihan 4', konsep: 'KMeans_dan_Profil_Klaster',
-                    // materi: [['Latihan 4 ', 'dokumen/LF11_KMeans_dan_Profil_Klaster.ipynb']],
+                    materi: [['Latihan 4 ', 'dokumen/Clustering_Kmeans.ipynb']],
                 },
             ],
             berkas: 'slides/P11_Clustering_dan_Dasar_Probabilitas.pptx' },
