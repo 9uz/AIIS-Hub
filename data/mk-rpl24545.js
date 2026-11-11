@@ -328,51 +328,50 @@ jadwal: [
               },
               ],
       },
+      // {
+      //   n: '11', minggu: 'Minggu 11',
+      //   topik: 'Optimisasi dan Gradient Descent',
+      //   label: 'Sub-CPMK 9',
+      //   bobot: '5%',
+      //   warna: '2F6B8A',
+      //   catatan: 'Gradient Descent · Stochastic Gradient Descent · Konvergensi · Perbandingan GD dan SGD',
+      //     // agenda: [
+      //     //     {
+      //     //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
+      //     //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
+      //     //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+      //     //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+      //     //     },
+      //     //     {
+      //     //         judul: 'Tugas Mandiri', konsep: '',
+      //     //         materi: [
+      //     //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
+      //     //             ['Form Pengumpulan :', '']
+      //     //         ],
+      //     //     },
+      //     //     ],
+      // },
       {
-        n: '11', minggu: 'Minggu 11',
-        topik: 'Optimisasi dan Gradient Descent',
-        label: 'Sub-CPMK 9',
-        bobot: '5%',
-        warna: '2F6B8A',
-        catatan: 'Gradient Descent · Stochastic Gradient Descent · Konvergensi · Perbandingan GD dan SGD',
-          // agenda: [
-          //     {
-          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
-          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
-          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
-          //     },
-          //     {
-          //         judul: 'Tugas Mandiri', konsep: '',
-          //         materi: [
-          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
-          //             ['Form Pengumpulan :', '']
-          //         ],
-          //     },
-          //     ],
-      },
-      {
-        n: '12',minggu: 'Minggu 12',
+        n: '11',minggu: 'Minggu 11',
         topik: 'Neural Networks',
         label: 'Sub-CPMK 10',
         bobot: '5%',
         warna: '6B5B95',
         catatan: 'Model Non-linear · Arsitektur Neural Network · Fungsi Aktivasi · Implementasi PyTorch',
-          // agenda: [
-          //     {
-          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
-          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
-          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
-          //     },
-          //     {
-          //         judul: 'Tugas Mandiri', konsep: '',
-          //         materi: [
-          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
-          //             ['Form Pengumpulan :', '']
-          //         ],
-          //     },
-          //     ],
+          agenda: [
+              {
+                  judul: 'Model Non-linear · Arsitektur Neural Network · Fungsi Aktivasi · Implementasi PyTorch',
+                  konsep: 'Model Non-linear · Arsitektur Neural Network · Fungsi Aktivasi · Implementasi PyTorch',
+                  // materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
+                  //     ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+              },
+              {
+                  judul: 'Tugas', konsep: '',
+                  materi: [
+                      ['#TO DO','dokumen/LKM11.md' ],
+                  ],
+              },
+              ],
       },
       {
         n: '13', minggu: 'Minggu 13',
