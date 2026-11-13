@@ -362,8 +362,8 @@ jadwal: [
               {
                   judul: 'Model Non-linear · Arsitektur Neural Network · Fungsi Aktivasi · Implementasi PyTorch',
                   konsep: 'Model Non-linear · Arsitektur Neural Network · Fungsi Aktivasi · Implementasi PyTorch',
-                  // materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-                  //     ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
+                  materi: [['Slide: Arsitektur Neural Network ...','slides/12_Jaringan_Saraf_Tiruan(Neural Networks).pdf' ],
+                      ['Modul Belajar Neural Network', 'dokumen/lec14.ipynb' ],],
               },
               {
                   judul: 'Tugas', konsep: '',
@@ -374,7 +374,7 @@ jadwal: [
               ],
       },
       {
-        n: '13', minggu: 'Minggu 13',
+        n: '12', minggu: 'Minggu 13',
         topik: 'Neural Networks dan Backpropagation',
         label: 'Sub-CPMK 10',
         bobot: '5%',
@@ -397,7 +397,7 @@ jadwal: [
           //     ],
       },
       {
-        n: '14', minggu: 'Minggu 14',
+        n: '14', minggu: 'Minggu 13',
         topik: 'Neural Networks: Normalisasi, Inisialisasi, dan Regularisasi',
         label: 'Sub-CPMK 10',
         bobot: '5%',
@@ -406,7 +406,7 @@ jadwal: [
         jenis: 'proyek'
       },
       {
-        n: '15', minggu: 'Minggu 15',
+        n: '15', minggu: 'Minggu 14',
         topik: 'CNN, RNN, dan Large Language Models',
         label: 'Sub-CPMK 11',
         bobot: '5%',
@@ -414,6 +414,15 @@ jadwal: [
         catatan: 'Convolutional Neural Network · Recurrent Neural Network · Generative Models · LLM · Proyek Akhir Tahap 2: Data Cleaning, EDA, dan Baseline',
         jenis: 'proyek'
       },
+        {
+            n: '15', minggu: 'Minggu 15',
+            topik: 'Transformer, GPT-2, Deepseek,dan BERT',
+            label: 'Sub-CPMK 11',
+            bobot: '5%',
+            warna: '6B5B95',
+            catatan: 'Convolutional Neural Network · Recurrent Neural Network · Generative Models · LLM · Proyek Akhir Tahap 2: Data Cleaning, EDA, dan Baseline',
+            jenis: 'proyek'
+        },
       {
         n: '16', minggu: 'Minggu 16',
         topik: 'Ujian Akhir Semester — Presentasi Proyek Akhir',
