@@ -225,18 +225,18 @@ window.MK.push({
             agenda: [
                 {
                     judul: 'Arsitektur Neural Network', konsep: 'Arsitektur Neural Network',
-                    // materi: [['Slide: Clustering dan Dasar Probabilitas ...','slides/P12_Arsitektur_Neural_Network.pdf' ]],
+                    materi: [['Slide: Clustering dan Dasar Probabilitas ...','slides/P12_Arsitektur_Neural_Network.pdf' ]],
                 },
                 {
                     judul: 'Latihan 5', konsep: '',
-                    // materi: [['Latihan 5 ', 'dokumen/LF12_Neural_Network.ipynb']],
+                    materi: [['Latihan 5 ', 'dokumen/LF12_Neural_Network.ipynb']],
                 },
             ],berkas: 'slides/P12_Arsitektur_Neural_Network.pptx' },
         { n: '13',minggu: 'Minggu 13', tanggal: '23 – 29 Nov', topik: 'Representasi Teks, CNN, RNN, dan LLM', label: 'Sub-CPMK 12', bobot: '8%', warna: '0F3743', catatan: 'BoW, TF-IDF, attention, etika LLM \u00b7 Tugas 5 \u00b7 Presentasi Kilat sesi 2', berkas: '' ,
 		agenda: [
             {
               judul: 'Representasi Teks, CNN, RNN, dan LLM', konsep: 'Representasi Teks, CNN, RNN, dan LLM',
-              // materi: [['Slide: Representasi Teks, CNN, ...','slides/P13_Teks_CNN_RNN_dan_LLM.pdf' ]],
+              materi: [['Slide: Representasi Teks, CNN, ...','slides/P13_Teks_CNN_RNN_dan_LLM.pdf' ]],
             },
             {
               judul: 'Tugas 5', konsep: 'Algoritma',
