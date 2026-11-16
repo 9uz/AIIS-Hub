@@ -229,7 +229,8 @@ window.MK.push({
                 },
                 {
                     judul: 'Latihan 5', konsep: '',
-                    materi: [['Latihan 5 ', 'dokumen/LF12_Neural_Network.ipynb']],
+                    materi: [['Latihan 5 ', 'dokumen/LF12_Neural_Network.ipynb'],
+                        ['Modul Belajar Neural Network', 'dokumen/lec14.ipynb' ]],
                 },
             ],berkas: 'slides/P12_Arsitektur_Neural_Network.pptx' },
         { n: '13',minggu: 'Minggu 13', tanggal: '23 – 29 Nov', topik: 'Representasi Teks, CNN, RNN, dan LLM', label: 'Sub-CPMK 12', bobot: '8%', warna: '0F3743', catatan: 'BoW, TF-IDF, attention, etika LLM \u00b7 Tugas 5 \u00b7 Presentasi Kilat sesi 2', berkas: '' ,
