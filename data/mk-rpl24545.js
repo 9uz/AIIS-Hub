@@ -469,6 +469,19 @@ jadwal: [
                         ['#TO DO','dokumen/LKM15.md' ],
                     ],
                 },
+                {
+                    judul: 'Pengumpulan Proyek Akhir',
+                    konsep: 'Kelengkapan Proyek digunakan sebagai syarat untuk mengikuti Evaluasi Tugas Akhir ' +
+                        '**Deliverable akhir:** ',
+                    materi: [
+                        ['1. Laporan lengkap (semua bab) ','' ],
+                        ['2. Repository GitHub (Lengkap Tahap 0-5) ','' ],
+                        ['3. Video pembahasan ' ,'' ],
+                        ['4. Slide presentasi (opsional)','' ],
+                        ['5. Demo online model terbaik (stramlite / platform lain)','' ],
+                        ['Form Pengumpulan','https://forms.gle/Am3f4sq8a3XR7GpA9' ],
+                    ],
+                },
             ],
             jenis: 'proyek'
         },
