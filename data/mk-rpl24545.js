@@ -317,7 +317,7 @@ jadwal: [
                       ],
               },
               {
-                  judul: 'Tugas PBL',
+                  judul: 'Proyek Akhir ',
                   konsep: 'Mahasiswa memiliki masalah yang jelas, dataset yang layak, dan rumusan Target–Objective–Data.',
                   materi: [
                       ['#TO DO','dokumen/09_minggu9.md' ],
@@ -366,7 +366,8 @@ jadwal: [
                       ['Modul Belajar Neural Network', 'dokumen/lec14.ipynb' ],],
               },
               {
-                  judul: 'Tugas', konsep: '',
+                  judul: 'Proyek Akhir Tahap 1',
+                  konsep: '[L] DATA UNDERSTANDING & DATA PREPARATION',
                   materi: [
                       ['#TO DO','dokumen/LKM11.md' ],
                   ],
@@ -374,45 +375,77 @@ jadwal: [
               ],
       },
       {
-        n: '12', minggu: 'Minggu 13',
+        n: '12', minggu: 'Minggu 12',
         topik: 'Neural Networks dan Backpropagation',
         label: 'Sub-CPMK 10',
         bobot: '5%',
         warna: '6B5B95',
         catatan: 'Implementasi Neural Network dengan PyTorch · Backpropagation · Tuning Model · Peer Review',
-          // agenda: [
-          //     {
-          //         judul: 'Optimisasi, Hyperparameter Tuning, dan Evaluasi Model',
-          //         konsep: 'Optimisasi iteratif · Hyperparameter tuning · Prediksi · Accuracy · Log Loss · Precision · Recall',
-          //         materi: [['Slide: Dasar-dasar Machine Learning Terminologi ...','slides/02_Dasar_ML_Terminologi_dan_Teknik_Dasar.pdf' ],
-          //             ['Modul Belajar 2', 'dokumen/lec3.ipynb' ],],
-          //     },
-          //     {
-          //         judul: 'Tugas Mandiri', konsep: '',
-          //         materi: [
-          //             ['Tugas Praktikum 1', 'dokumen/tugas2.ipynb' ],
-          //             ['Form Pengumpulan :', '']
-          //         ],
-          //     },
-          //     ],
+          agenda: [
+              {
+                  judul: 'Neural Network dengan PyTorch · Backpropagation · Tuning Model · Peer Review',
+                  konsep: 'Neural Network dengan PyTorch · Backpropagation · Tuning Model · Peer Review',
+                  materi: [['Slide: Neural Network dengan PyTorch ...','slides/P12_Arsitektur_Neural_Network.pdf' ],
+                     ],
+              },
+              {
+                  judul: 'Proyek Akhir Tahap 2',
+                  konsep: '[M] MODEL DESIGN: BASELINE & ADVANCED',
+                  materi: [
+                      ['#TO DO','dokumen/LKM12.md' ],
+                  ],
+              },
+              ],
       },
       {
-        n: '14', minggu: 'Minggu 13',
+        n: '13', minggu: 'Minggu 13',
         topik: 'Neural Networks: Normalisasi, Inisialisasi, dan Regularisasi',
         label: 'Sub-CPMK 10',
         bobot: '5%',
         warna: '6B5B95',
         catatan: 'Batch Normalization · Weight Initialization · Regularisasi · Proyek Akhir Tahap 1: Topik dan Dataset',
+          agenda: [
+              {
+                  judul: 'Batch Normalization · Weight Initialization · Regularisasi · Proyek Akhir Tahap 1: Topik dan Dataset',
+                  konsep: 'Batch Normalization · Weight Initialization · Regularisasi · Proyek Akhir Tahap 1: Topik dan Dataset',
+                  materi: [
+                      // ['Slide: Neural Network dengan PyTorch ...','slides/P12_Arsitektur_Neural_Network.pdf' ],
+                  ],
+              },
+              {
+                  judul: 'Proyek Akhir Tahap 3',
+                  konsep: '[M → O] TUNING ADVANCED & DESAIN DEEP LEARNING',
+                  materi: [
+                      ['#TO DO','dokumen/LKM13.md' ],
+                  ],
+              },
+          ],
         jenis: 'proyek'
       },
       {
-        n: '15', minggu: 'Minggu 14',
+        n: '14', minggu: 'Minggu 14',
         topik: 'CNN, RNN, dan Large Language Models',
         label: 'Sub-CPMK 11',
         bobot: '5%',
         warna: '6B5B95',
         catatan: 'Convolutional Neural Network · Recurrent Neural Network · Generative Models · LLM · Proyek Akhir Tahap 2: Data Cleaning, EDA, dan Baseline',
-        jenis: 'proyek'
+          agenda: [
+              {
+                  judul: 'Convolutional Neural Network · Recurrent Neural Network · Generative Models · LLM',
+                  konsep: 'Convolutional Neural Network · Recurrent Neural Network · Generative Models · LLM',
+                  materi: [
+                      // ['Slide: Neural Network dengan PyTorch ...','slides/P12_Arsitektur_Neural_Network.pdf' ],
+                  ],
+              },
+              {
+                  judul: 'Proyek Akhir Tahap 4',
+                  konsep: '[O] OPTIMIZATION DEEP LEARNING',
+                  materi: [
+                      ['#TO DO','dokumen/LKM14.md' ],
+                  ],
+              },
+          ],
+          jenis: 'proyek'
       },
         {
             n: '15', minggu: 'Minggu 15',
@@ -421,6 +454,22 @@ jadwal: [
             bobot: '5%',
             warna: '6B5B95',
             catatan: 'Convolutional Neural Network · Recurrent Neural Network · Generative Models · LLM · Proyek Akhir Tahap 2: Data Cleaning, EDA, dan Baseline',
+            agenda: [
+                {
+                    judul: 'Convolutional Neural Network · Recurrent Neural Network · Generative Models · LLM',
+                    konsep: 'Convolutional Neural Network · Recurrent Neural Network · Generative Models · LLM',
+                    materi: [
+                        // ['Slide: Neural Network dengan PyTorch ...','slides/P12_Arsitektur_Neural_Network.pdf' ],
+                    ],
+                },
+                {
+                    judul: 'Proyek Akhir Tahap 5',
+                    konsep: '[P] PREDICT & EVALUATE, FINALISASI',
+                    materi: [
+                        ['#TO DO','dokumen/LKM15.md' ],
+                    ],
+                },
+            ],
             jenis: 'proyek'
         },
       {
